@@ -1,0 +1,282 @@
+  *{
+	box-sizing:border-box;
+}
+  body{
+	  margin:0;
+	  background:white;
+  }
+#jklogo{
+	position:absolute;
+	top:-10px;
+	left:200px;
+}
+  p{
+	  color:black;
+	  padding : 1em;
+	  font-family : monospace;
+	  font-size:1.5em;
+	  
+  }
+  
+
+ .header{
+	 position:fixed;
+	 top:0px;
+	 left:0px;
+	 width:100%;
+	 height:60px;
+	 background:white;
+	 display: block;
+	 padding:15px;
+	 z-index:5;
+  }
+  ul  {
+	  position:fixed;
+	  top:10px;
+	  left:900px;
+	  color:black;
+	  width:500px;
+	  float:right;
+  }
+  li{
+	  font-size:19px;
+	  padding:25px;
+	  display:inline;
+	  
+  }
+  .main{
+ background:black;
+
+  }
+  
+ 
+  .bg1{
+	  width:100%;
+	  height:1000px;
+	  background-image:url('http://localhost/Portfolio/img/citylights.jpg');
+	    background-repeat: no-repeat;	
+	background-size: cover;
+  }
+  
+ .bg2{
+	   width:100%;
+	  height:1000px;
+	  background-image:url('http://localhost/Portfolio/img/249.jpg');
+	  background-repeat: no-repeat;
+    background-attachment: fixed;	
+	background-size: cover;
+	
+ }
+   .bg3{
+	  width:100%;
+	 height:900px;
+	  background-image:url('http://localhost/Portfolio/img/NewYork.jpg');
+	  background-repeat: no-repeat;
+    background-attachment: fixed;	
+	background-size: cover;
+ }
+ 
+ .bio_text{
+	 position:absolute;
+	 height:300px;
+	 width:300px;
+	 left:700px;
+	 top:1200px;
+	
+ }
+ .jk_photo{
+	 background-image:url('http://localhost/Portfolio/img/JohnnyKru1.jpg');
+	 height:550px;
+	 width:400px;
+	 background-size: cover;
+	 position:relative;
+	 left:60px;
+	 top: 0;
+ }
+  .spacer1 {
+ position:relative;
+	 width:100%;
+	 height:600px;
+	 background:white;
+	 padding:20px 20px;
+	 z-index:2;
+}
+  .spacer2{
+	 position:relative;
+	 width:100%;
+	 height:400px;
+	 background:white;
+	 z-index:3;
+ }
+  .spacer3{
+	 position:relative;
+	 width:100%;
+	 height:500px;
+	 background:white;
+ }
+  .footer{
+ background:black;
+ height:200px;
+ width:100%;
+  }
+ 
+.float_text{
+	position:absolute;
+	top:200px;
+	left:20%;
+	width:800px;
+	font-size:17px;
+	 text-shadow: 0 0 4px #ffffff;
+	 border: solid 1px white;
+	 border-radius:25px 25px;
+}
+.article{
+position:absolute;
+	top:100px;
+	left:20%;
+	width:800px;
+	font-size:17px;
+	 text-shadow: 0 0 4px #ffffff;
+	 border: solid 1px white;
+	 border-radius:25px 25px;	
+	
+}
+
+button{
+	left: 0;
+	right:0;
+	margin:auto;
+	display:block;
+	width:150px;
+	height:70px;
+	background:grey;
+	border:0;
+	cursor:pointer;
+	position: absolute;
+	border-radius:3px;
+	font-family : monospace;
+	font-size:2em;
+}
+.introWrap{
+	position:absolute;
+	top:70px;
+	left:40%;
+	width:700px;
+	height:400px;
+}
+.html5 {
+position:absolute;
+top:10px;
+left:20%;
+height:150px;
+width:150px;
+background-image: url("http://localhost/Portfolio/img/html5.PNG");	
+background-size: cover;
+}
+#icon1{
+	position:relative;
+	top:80px;
+}
+.css3{
+position:absolute;
+top:10px;
+left:30%;
+height:150px;
+width:150px;
+background-image: url("http://localhost/Portfolio/img/css3.PNG");	
+background-size: cover;
+}
+#icon2{
+	position:relative;
+	top:80px;
+}
+.github {
+position:absolute;
+top:10px;
+left:40%;
+height:150px;
+width:150px;
+background-image: url("http://localhost/Portfolio/img/git.PNG");	
+background-size: cover;
+}
+#icon3{
+	position:relative;
+	top:80px;
+}
+.php7 {
+position:absolute;
+top:10px;
+left:50%;
+height:150px;
+width:250px;
+background-image: url("http://localhost/Portfolio/img/php7.jpg");	
+background-size: cover;
+}
+#icon4{
+	position:relative;
+	top:80px;
+}
+.photo_wrapper{
+	position:absolute;
+	top:220%;
+	left:20%;
+	height:700px;
+	width:900px;
+	border: solid 1px red;
+}
+.photo1{
+	position:relative;
+	background-image:url("http://localhost/Portfolio/img/tgm.png");
+	width:300px;
+	height:200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+   	
+	
+}
+.photo2{
+	position:relative;
+	background-image:url("http://localhost/Portfolio/img/eft.png");
+	width:300px;
+	height:200px;
+	background-repeat: no-repeat;
+  	background-size: cover;
+	
+}
+.photo3{
+	position:relative;
+	background-image:url("http://localhost/Portfolio/img/Rapid.jpg");
+	width:300px;
+	height:200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+   	
+	
+}
+.photo4{
+	position:relative;
+	background-image:url("http://localhost/Portfolio/img/Teamlogo.jpg");
+	width:300px;
+	height:200px;
+	background-repeat: no-repeat;
+  	background-size: cover;
+	
+}
+.form_wrap{
+	position:relative;
+	padding:55px 50px;
+	width:400px;
+	height:400px;
+	background:pink;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
