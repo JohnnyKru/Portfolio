@@ -11,14 +11,16 @@
 	left:200px;
 }
   p{
-	  color:black;
-	  padding : 1em;
-	  font-family : monospace;
-	  font-size:1.5em;
+font-family:arial;
+font-size:20px;  
+  }
+  h1 , h2 {
+	  color:white;
 	  
   }
-  
-
+h3{
+	color:red;
+}
  .header{
 	 position:fixed;
 	 top:0px;
@@ -41,24 +43,32 @@
   li{
 	  font-size:19px;
 	  padding:25px;
-	  display:inline;
-	  
+	  display:inline;  
   }
+  .img-circle{
+	border-radius:100%;
+	 height:200px;
+	width:200px;
+	border:solid 1px red;
+  }
+  
   .main{
  background:black;
-
   }
   
  
   .bg1{
+	  position:relative;
 	  width:100%;
 	  height:1000px;
-	  background-image:url('http://localhost/Portfolio/img/citylights.jpg');
-	    background-repeat: no-repeat;	
+	  background-image:url('http://localhost/Portfolio/img/desk.jpg');
+	    background-repeat: no-repeat;
+		 background-attachment: fixed;
 	background-size: cover;
   }
   
  .bg2{
+	 position:relative;
 	   width:100%;
 	  height:1000px;
 	  background-image:url('http://localhost/Portfolio/img/249.jpg');
@@ -68,6 +78,7 @@
 	
  }
    .bg3{
+	   position:relative;
 	  width:100%;
 	 height:900px;
 	  background-image:url('http://localhost/Portfolio/img/NewYork.jpg');
@@ -76,30 +87,13 @@
 	background-size: cover;
  }
  
- .bio_text{
-	 position:absolute;
-	 height:300px;
-	 width:300px;
-	 left:700px;
-	 top:1200px;
-	
- }
- .jk_photo{
-	 background-image:url('http://localhost/Portfolio/img/JohnnyKru1.jpg');
-	 height:550px;
-	 width:400px;
-	 background-size: cover;
-	 position:relative;
-	 left:60px;
-	 top: 0;
- }
   .spacer1 {
- position:relative;
+	 position:relative;
 	 width:100%;
 	 height:600px;
 	 background:white;
 	 padding:20px 20px;
-	 z-index:2;
+	z-index:2;
 }
   .spacer2{
 	 position:relative;
@@ -111,7 +105,7 @@
   .spacer3{
 	 position:relative;
 	 width:100%;
-	 height:500px;
+	 height:400px;
 	 background:white;
  }
   .footer{
@@ -119,55 +113,88 @@
  height:200px;
  width:100%;
   }
- 
 .float_text{
 	position:absolute;
 	top:200px;
 	left:20%;
 	width:800px;
-	font-size:17px;
+	padding:25px;
 	 text-shadow: 0 0 4px #ffffff;
-	 border: solid 1px white;
-	 border-radius:25px 25px;
+	 opacity: 0.9;
+    filter: alpha(opacity=20);
+	 border: solid 1px red;
+	 border-radius:15px 15px;
+	 background:white;
+
 }
 .article{
 position:absolute;
-	top:100px;
+	top:80px;
 	left:20%;
-	width:800px;
-	font-size:17px;
-	 text-shadow: 0 0 4px #ffffff;
-	 border: solid 1px white;
-	 border-radius:25px 25px;	
-	
+	background:white;
+	z-index:5;
+		
 }
 
 button{
-	left: 0;
+	position:absolute;
+	top:220px;
+	left: 60px;
 	right:0;
 	margin:auto;
 	display:block;
 	width:150px;
-	height:70px;
-	background:grey;
-	border:0;
+	height:50px;
+	border:solid 1px red;;
 	cursor:pointer;
 	position: absolute;
 	border-radius:3px;
 	font-family : monospace;
 	font-size:2em;
+	background:grey;
+	 opacity: 0.8;
+    filter: alpha(opacity=50);
 }
-.introWrap{
+
+ .johnny_image{
+	 background-repeat: no-repeat;
+	 background-position:left;
 	position:absolute;
-	top:70px;
-	left:40%;
-	width:700px;
+	top:50px;
+	left:300px;
+	max-height:100%;
+ }
+
+ .bio_text1{
+	position:absolute;
+	left:35%;
+	top:50px;
 	height:400px;
+	width:600px;
+	
 }
+
+.features {
+	margin:25px 0;
+	position:relative;
+	top:280px;
+}
+.thumbnail {
+	border:0;
+	text-align:center;
+}
+.thumbnail .caption p {
+	color: #94a3a8;
+}
+
+
+
+
+
 .html5 {
 position:absolute;
 top:10px;
-left:20%;
+left:10%;
 height:150px;
 width:150px;
 background-image: url("http://localhost/Portfolio/img/html5.PNG");	
@@ -180,7 +207,7 @@ background-size: cover;
 .css3{
 position:absolute;
 top:10px;
-left:30%;
+left:20%;
 height:150px;
 width:150px;
 background-image: url("http://localhost/Portfolio/img/css3.PNG");	
@@ -193,7 +220,7 @@ background-size: cover;
 .github {
 position:absolute;
 top:10px;
-left:40%;
+left:30%;
 height:150px;
 width:150px;
 background-image: url("http://localhost/Portfolio/img/git.PNG");	
@@ -206,7 +233,7 @@ background-size: cover;
 .php7 {
 position:absolute;
 top:10px;
-left:50%;
+left:40%;
 height:150px;
 width:250px;
 background-image: url("http://localhost/Portfolio/img/php7.jpg");	
@@ -216,62 +243,131 @@ background-size: cover;
 	position:relative;
 	top:80px;
 }
+.wordpress{
+	position:absolute;
+    top:10px;
+    left:60%;
+    height:150px;
+    width:150px;
+    background-image: url("http://localhost/Portfolio/img/wordpress.jpg");	
+    background-size: cover;
+}
+#icon5{
+	position:relative;
+	top:80px;
+}
+
+
+
 .photo_wrapper{
+	padding:25px;
 	position:absolute;
 	top:220%;
-	left:20%;
-	height:700px;
-	width:900px;
-	border: solid 1px red;
+	left:10%;
+	text-align:center;
+    background:transparent;
+	height:1000px;
+	width:1200px;
 }
+
 .photo1{
 	position:relative;
 	background-image:url("http://localhost/Portfolio/img/tgm.png");
-	width:300px;
-	height:200px;
+	width:340px;
+	height:250px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	border-radius: 7px 7px;
    	
 	
 }
 .photo2{
 	position:relative;
 	background-image:url("http://localhost/Portfolio/img/eft.png");
-	width:300px;
-	height:200px;
+	width:340px;
+	height:250px;
 	background-repeat: no-repeat;
   	background-size: cover;
+	border-radius: 7px 7px;
 	
 }
 .photo3{
 	position:relative;
 	background-image:url("http://localhost/Portfolio/img/Rapid.jpg");
-	width:300px;
-	height:200px;
+	width:340px;
+	height:250px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	border-radius: 7px 7px;
    	
 	
 }
 .photo4{
 	position:relative;
 	background-image:url("http://localhost/Portfolio/img/Teamlogo.jpg");
-	width:300px;
-	height:200px;
+	width:340px;
+	height:250px;
 	background-repeat: no-repeat;
   	background-size: cover;
+	border-radius: 7px 7px;
 	
 }
 .form_wrap{
-	position:relative;
+	position:absolute;
+	top:-100;
+	left:150;
 	padding:55px 50px;
 	width:400px;
 	height:400px;
-	background:pink;
 	margin: 0 auto;
 }
 
+.flip3D{ width:340px; height:250px; margin:10px; float:left; }
+.flip3D > .front{
+	position:absolute;
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+	background:#FC0; width:240px; height:200px; border-radius: 7px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+.flip3D > .back{
+	position:absolute;
+	-webkit-transform: perspective( 600px ) rotateY( 180deg );
+	transform: perspective( 600px ) rotateY( 180deg );
+	background: #80BFFF; width:340px; height:250px; border-radius: 7px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+.flip3D:hover > .front{
+	-webkit-transform: perspective( 600px ) rotateY( -180deg );
+	transform: perspective( 600px ) rotateY( -180deg );
+}
+.flip3D:hover > .back{
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+}
+/* Animation */
 
+.testblock {
+	-moz-transition:all 0.6s ease;
+	-webkit-transition:all 0.6s ease;
+	-ms-transition:all 0.6s ease;
+	-o-transition:all 0.6s ease;
+	transition:all 0.6s ease;
+}
+.testblock:hover {
+	-moz-transform:scale(2.05);
+	-webkit-transform:scale(2.05);
+	-o-transform:scale(2.05);
+	-ms-transform:scale(2.05);
+	transform:scale(2.05);
+	z-index:2;
+}
 
 
 
