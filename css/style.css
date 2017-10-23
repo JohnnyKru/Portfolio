@@ -197,7 +197,7 @@ top:40px;
 left:10%;
 height:150px;
 width:150px;
-background-image: url("../img/html5.PNG");	
+background-image: url("../img/html5.png");	
 background-size: cover;
 }
 #icon1{
@@ -210,7 +210,7 @@ top:40px;
 left:20%;
 height:150px;
 width:150px;
-background-image: url("../img/css3.PNG");	
+background-image: url("../img/css3.png");	
 background-size: cover;
 }
 #icon2{
@@ -223,7 +223,7 @@ top:40px;
 left:30%;
 height:150px;
 width:150px;
-background-image: url("../img/git.PNG");	
+background-image: url("../img/git.png");	
 background-size: cover;
 }
 #icon3{
