@@ -21,6 +21,8 @@
   </head>
 
   <body>
+    <div class="container-fluid">
+	  <div class="row col-xlg-12">
      <div class="wrapper">
 		<div class="header">
 		 <h1 id="jklogo" href=" https://calm-peak-10528.herokuapp.com/">Johnny Keokongsy</h1><br/>
@@ -30,6 +32,7 @@
 		  <li>Contact</li>
 		 </ul>
 		</div>
+		    
              <div class="main">
                  <div class="bg1">
 								<div class="container">	 
@@ -47,8 +50,7 @@
 					 <br>		
 					 
 			    </div>
-			<div class="spacer1">
-						<div class="johnny_image"><img class="img-circle" src=" https://calm-peak-10528.herokuapp.com/img/Johnnybw.png"/></div>
+			<div class="spacer1 col-xl-12 col-lg-12 col-md-6 col-sm-4">
 						 <div class="bio_text1"> 
 						 <p> Freelance WebDesigner & Developer based in Raleigh,NC. </p>
 						 <p>Experienced in HTML5, CSS3, JQuery, JavaScript, PHP, and Mysql.</p>
@@ -56,6 +58,8 @@
 						 <p>Maintained and build client websites with WordPress.</p>
 						 <p>Integrated WordPress based websites with other websites.</p> 
 						</div>	
+			<div class="johnny_image col-lg-12"><img class="img-circle" src=" https://calm-peak-10528.herokuapp.com/img/Johnnybw.png"/></div>	
+				
 				<section class="row features">
 					  <div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
@@ -168,6 +172,8 @@
 		
 		</div>
      </div>
+	 </div>
+	 </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

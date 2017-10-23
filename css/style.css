@@ -55,6 +55,8 @@ h3{
   
   .main{
  background:black;
+ width:100%;
+ height:auto;
   }
   
  
@@ -270,7 +272,6 @@ background-size: cover;
     background:transparent;
 	height:1000px;
 	width:1200px;
-	border: solid 1px red;
 }
 
 .photo1{
