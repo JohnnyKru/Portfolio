@@ -25,7 +25,7 @@
 		<div class="header">
 		 <h1 id="jklogo" href="index.php">Johnny Keokongsy</h1><br/>
 		 <ul>
-		 <li>Professional Skills</li>
+		 <li><a href=#> Professional Skills </a></li>
 		 <li>Portfolio</li>
 		  <li>Contact</li>
 		 </ul>
@@ -101,7 +101,7 @@
 					
 						<div data-tilt><div class="bg2"></div></div>
 						 <div class="photo_wrapper">
-						 <h1>Some of our clients </h1><br><br><br>
+						 <h1 class="photo_text">Some of our clients </h1><br><br><br>
 							    <div class="flip3D">
 								  <div class="back">Box 1 - Back</div>
 								  <div class="front"><div class="photo1"></div></div>
@@ -128,10 +128,7 @@
 							<div class="testblock php7"><p id="icon4"> php / Mysql </p><br></div>
 							<div class="testblock wordpress"><p id="icon5"> WordPress </p><br></div>
 						</div>
-							<div class="bg3"></div>
-							
-							<div class="spacer3">
-							
+						<div class="bg3">
 							<div class="form_wrap">
 								<form  id="bottom_form1" method="POST" name="contactform" action="http://localhost/Portfolio/mail/thankyou.html">
 									<lable for='F_name'>First Name :<font color ="red">*</font></lable>  
@@ -147,22 +144,23 @@
 										<input style=background:#eee; type="text" id="email">
 										</input><br>
 									<lable for='phone'>Phone:<font color ="red">*</font></lable>
-										<input style=background:#eee; type:text id="phone">
+										<input style=background:#eee; type="text" id="phone">
 										</input><br><br>
 									<lable for='subject'>Subject:<font color ="red">*</font></lable>
-										<input style=background:#eee; type:text id="subject">
+										<input style=background:#eee; type="text" id="subject">
 										</input>
 									<br>
 									<lable for='comment'>Comment:<font color ="red">*</font></lable> 
-										<input style=background:#eee; type:text id="comment">
+										<input style=background:#eee; type="text" id="comment">
 										</input><br>
 									<br>
 									<br>
 										 <input type="submit" value="Submit">
 								</form>
 							</div>
+						</div>
 							
-							</div>
+							<div class="spacer3"></div>
 						
 
 
