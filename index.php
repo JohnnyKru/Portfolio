@@ -48,7 +48,7 @@
 					 
 			    </div>
 			<div class="spacer1">
-						<div class="johnny_image"><img class="img-circle" src=" https://calm-peak-10528.herokuapp.com/Portfolio/img/Johnnybw.png"/></div>
+						<div class="johnny_image"><img class="img-circle" src=" https://calm-peak-10528.herokuapp.com/img/Johnnybw.png"/></div>
 						 <div class="bio_text1"> 
 						 <p> Freelance WebDesigner & Developer based in Raleigh,NC. </p>
 						 <p>Experienced in HTML5, CSS3, JQuery, JavaScript, PHP, and Mysql.</p>
@@ -59,7 +59,7 @@
 				<section class="row features">
 					  <div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
-							<img src=" https://calm-peak-10528.herokuapp.com/Portfolio/img/service_01.png" alt="analytics-icon">
+							<img src=" https://calm-peak-10528.herokuapp.com/img/service_01.png" alt="analytics-icon">
 							<div class="caption">
 								<h3>Front End Design</h3>
 								<p>Art has always been part of my life. Watching technology take Art and bring it to life is amazing.</p>
@@ -69,7 +69,7 @@
 		 
 					<div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
-							<img src=" https://calm-peak-10528.herokuapp.com/Portfolio/img/service_02.png" alt="analytics-icon">
+							<img src="https://calm-peak-10528.herokuapp.com/img/service_02.png" alt="analytics-icon">
 							<div class="caption">
 								<h3>Back End </h3>
 								<p>Understadning how things work behind the curtins and collecting information.</p>
@@ -79,7 +79,7 @@
 		 
 					<div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
-							<img src=" https://calm-peak-10528.herokuapp.com/Portfolio/img/service_03.png" alt="analytics-icon">
+							<img src="https://calm-peak-10528.herokuapp.com/img/service_03.png" alt="analytics-icon">
 							<div class="caption">
 								<h3>Putting into Action. </h3>
 								<p>Frameworks helps me get things done quickly. Work alone or work as a team I will enjoy problm solving and learing from others.</p>
@@ -89,7 +89,7 @@
 		 
 					<div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
-							<img src=" https://calm-peak-10528.herokuapp.com/Portfolio/img/service_04.png" alt="analytics-icon">
+							<img src="https://calm-peak-10528.herokuapp.com/img/service_04.png" alt="analytics-icon">
 							<div class="caption">
 								<h3>Agreement</h3>
 								<p>Understanding what is needed as a developer and agreeing to provide professional quality work to our clients.</p>
@@ -130,7 +130,7 @@
 						</div>
 						<div class="bg3">
 							<div class="form_wrap">
-								<form  id="bottom_form1" method="POST" name="contactform" action=" https://calm-peak-10528.herokuapp.com/mail/thankyou.html">
+								<form  id="bottom_form1" method="POST" name="contactform" action="https://calm-peak-10528.herokuapp.com/mail/thankyou.html">
 									<lable for='F_name'>First Name :<font color ="red">*</font></lable>  
 										<input style=background:#eee; type="text" id="First_Name">
 										</input>

@@ -197,7 +197,7 @@ top:40px;
 left:10%;
 height:150px;
 width:150px;
-background-image: url("http://localhost/Portfolio/img/html5.PNG");	
+background-image: url("../img/html5.PNG");	
 background-size: cover;
 }
 #icon1{
@@ -210,7 +210,7 @@ top:40px;
 left:20%;
 height:150px;
 width:150px;
-background-image: url("http://localhost/Portfolio/img/css3.PNG");	
+background-image: url("../img/css3.PNG");	
 background-size: cover;
 }
 #icon2{
@@ -223,7 +223,7 @@ top:40px;
 left:30%;
 height:150px;
 width:150px;
-background-image: url("http://localhost/Portfolio/img/git.PNG");	
+background-image: url("../img/git.PNG");	
 background-size: cover;
 }
 #icon3{
@@ -236,7 +236,7 @@ top:40px;
 left:40%;
 height:150px;
 width:250px;
-background-image: url("http://localhost/Portfolio/img/php7.jpg");	
+background-image: url("../img/php7.jpg");	
 background-size: cover;
 }
 #icon4{
@@ -249,7 +249,7 @@ background-size: cover;
     left:60%;
     height:150px;
     width:150px;
-    background-image: url("http://localhost/Portfolio/img/wordpress.jpg");	
+    background-image: url("../img/wordpress.jpg");	
     background-size: cover;
 }
 #icon5{
@@ -275,7 +275,7 @@ background-size: cover;
 
 .photo1{
 	position:relative;
-	background-image:url("http://localhost/Portfolio/img/tgm.png");
+	background-image:url("../img/tgm.png");
 	width:340px;
 	height:250px;
 	background-repeat: no-repeat;
@@ -284,7 +284,7 @@ background-size: cover;
 }
 .photo2{
 	position:relative;
-	background-image:url("http://localhost/Portfolio/img/eft.png");
+	background-image:url("../img/eft.png");
 	width:340px;
 	height:250px;
 	background-repeat: no-repeat;
@@ -293,7 +293,7 @@ background-size: cover;
 }
 .photo3{
 	position:relative;
-	background-image:url("http://localhost/Portfolio/img/Rapid.jpg");
+	background-image:url("../img/Rapid.jpg");
 	width:340px;
 	height:250px;
 	background-repeat: no-repeat;
@@ -302,7 +302,7 @@ background-size: cover;
 }
 .photo4{
 	position:relative;
-	background-image:url("http://localhost/Portfolio/img/Teamlogo.jpg");
+	background-image:url("../img/Teamlogo.jpg");
 	width:340px;
 	height:250px;
 	background-repeat: no-repeat;
