@@ -21,17 +21,15 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-	  <div class="row col-xlg-12">
-     <div class="wrapper">
-		<div class="header">
-		 <h1 id="jklogo" href=" https://calm-peak-10528.herokuapp.com/">Johnny Keokongsy</h1><br/>
-		 <ul>
-		 <li><a href=#> Professional Skills </a></li>
-		 <li>Portfolio</li>
-		  <li>Contact</li>
-		 </ul>
-		</div>
+        <div class="wrapper">
+		    <div class="header">
+		         <h1 id="jklogo" href=" https://calm-peak-10528.herokuapp.com/">Johnny Keokongsy</h1><br/>
+		         <ul>
+					 <li><a href=#> Professional Skills </a></li>
+					 <li><a href=#>Portfolio </a></li>
+					  <li><a href=#>Contact<</a></li>
+		         </ul>
+		    </div>
 		    
              <div class="main">
                  <div class="bg1">
@@ -50,7 +48,7 @@
 					 <br>		
 					 
 			    </div>
-			<div class="spacer1 col-xl-12 col-lg-12 col-md-6 col-sm-4">
+			<div class="spacer1">
 						 <div class="bio_text1"> 
 						 <p> Freelance WebDesigner & Developer based in Raleigh,NC. </p>
 						 <p>Experienced in HTML5, CSS3, JQuery, JavaScript, PHP, and Mysql.</p>
@@ -58,10 +56,10 @@
 						 <p>Maintained and build client websites with WordPress.</p>
 						 <p>Integrated WordPress based websites with other websites.</p> 
 						</div>	
-			<div class="johnny_image col-lg-12"><img class="img-circle" src=" https://calm-peak-10528.herokuapp.com/img/Johnnybw.png"/></div>	
+			    <div class="johnny_image"><img class="img-circle" src=" https://calm-peak-10528.herokuapp.com/img/Johnnybw.png"/></div>	
 				
 				<section class="row features">
-					  <div class="col-sm-6 col-md-3">
+					 <div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
 							<img src=" https://calm-peak-10528.herokuapp.com/img/service_01.png" alt="analytics-icon">
 							<div class="caption">
@@ -101,10 +99,18 @@
 						</div><! --/thumbnail -->
 					</div><! --/col-sm-6-->
 				</section><! --/section -->
-            </div>
-					
-						<div data-tilt><div class="bg2"></div></div>
-						 <div class="photo_wrapper">
+            </div><!--Closed Spacer1-->
+			
+			<div data-tilt><div class="bg2"></div></div>
+			     <div class="spacer2">
+							<div class="testblock html5"><p id="icon1">HTML5</p><br></div>
+							<div class="testblock css3"><p id="icon2">css3</p><br></div>
+							<div class="testblock github"><p id="icon3">github</p><br></div>
+							<div class="testblock php7"><p id="icon4"> php / Mysql </p><br></div>
+							<div class="testblock wordpress"><p id="icon5"> WordPress </p><br></div>
+			    </div>
+					<div class="bg3">
+					    <div class="photo_wrapper">
 						 <h1 class="photo_text">Some of our clients </h1><br><br><br>
 							    <div class="flip3D">
 								  <div class="back">Box 1 - Back</div>
@@ -122,18 +128,11 @@
 								  <div class="back">Box 4 - Back</div>
 								  <div class="front"><div class="photo4"></div></div>
 								</div>
-						</div> 
-						 
-				
-							<div class="spacer2">
-							<div class="testblock html5"><p id="icon1">HTML5</p><br></div>
-							<div class="testblock css3"><p id="icon2">css3</p><br></div>
-							<div class="testblock github"><p id="icon3">github</p><br></div>
-							<div class="testblock php7"><p id="icon4"> php / Mysql </p><br></div>
-							<div class="testblock wordpress"><p id="icon5"> WordPress </p><br></div>
-						</div>
-						<div class="bg3">
-							<div class="form_wrap">
+						</div> <!--Closed Photo_Wrapper --> 	
+					</div><!--Closed Bg3-->
+						
+				    <div class="spacer3">
+					    <div class="form_wrap">
 								<form  id="bottom_form1" method="POST" name="contactform" action="https://calm-peak-10528.herokuapp.com/mail/thankyou.html">
 									<lable for='F_name'>First Name :<font color ="red">*</font></lable>  
 										<input style=background:#eee; type="text" id="First_Name">
@@ -161,26 +160,27 @@
 									<br>
 										 <input type="submit" value="Submit">
 								</form>
-							</div>
-						</div>
-							
-							<div class="spacer3"></div>
-						
-
-
-		<div class="footer">
-		
-		</div>
-     </div>
-	 </div>
-	 </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-	<script src="js/boom.js"></script>
-	<script src=" https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.1.21/tilt.jquery.min.js"></script>
-	<script src="http://localhost/Portfolio/js/tilt.js-master/jquery.js"></script>
-	<script src="http://localhost/Portfolio/js/tilt.js-master/tilt.js"></script>
-  </body>
+							</div><!--Closed Form Wrap -->
+					</div> <!--Closed BG3-->
+					
+				    <div class="footer"> 
+					<ul class="share-buttons">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcalm-peak-10528.herokuapp.com%2F&t=" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="images/flat_web_icon_set/black/Facebook.png" /></a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fcalm-peak-10528.herokuapp.com%2F&text=:%20https%3A%2F%2Fcalm-peak-10528.herokuapp.com%2F&via=JOHNNYKRU" target="_blank" title="Tweet"><img alt="Tweet" src="images/flat_web_icon_set/black/Twitter.png" /></a></li>
+  <li><a href="https://plus.google.com/share?url=https%3A%2F%2Fcalm-peak-10528.herokuapp.com%2F" target="_blank" title="Share on Google+"><img alt="Share on Google+" src="images/flat_web_icon_set/black/Google+.png" /></a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fcalm-peak-10528.herokuapp.com%2F&title=&summary=&source=https%3A%2F%2Fcalm-peak-10528.herokuapp.com%2F" target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn" src="images/flat_web_icon_set/black/LinkedIn.png" /></a></li>
+</ul>
+					
+					</div>
+            </div><!--Closed Main-->
+	    </div><!-- Closed Wrapper-->
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+			<!-- Include all compiled plugins (below), or include individual files as needed -->
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/boom.js"></script>
+			<script src=" https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.1.21/tilt.jquery.min.js"></script>
+			<script src="http://localhost/Portfolio/js/tilt.js-master/jquery.js"></script>
+			<script src="http://localhost/Portfolio/js/tilt.js-master/tilt.js"></script>
+    </body>
 </html>
