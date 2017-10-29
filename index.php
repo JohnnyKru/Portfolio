@@ -53,48 +53,47 @@
     <section id="intro">
 		<ul id="slippry-slider">
 		  <li>
-			<a href="#slide1"><img src="assets/img_old/slide/desk.jpg" alt="I'm Driven to be better than I was yesterday."></a>
+			<a href="#slide1"><img src="assets/img/slide/desk.jpg" alt="I'm Driven to be better than I was yesterday."></a>
 		  </li>
 		  <li>
-			<a href="#slide2"><img src="assets/img_old/slide/NewYork.jpg"  alt="As a developer, I'm passionate about building great things with technology..."></a>
+			<a href="#slide2"><img src="assets/img/slide/NewYork.jpg"  alt="As a developer, I'm passionate about building great things with technology..."></a>
 		  </li>
 		  <li>
-			<a href="#slide3"><img src="assets/img_old/slide/citylights.jpg" alt=" Because when we build Great things we become better humans !!!<span class='red'>♥</span> :)"></a>
+			<a href="#slide3"><img src="assets/img/slide/citylights.jpg" alt=" Because when we build Great things we become better humans !!!<span class='red'>♥</span> :)"></a>
 		  </li>
 		</ul>
     </section>
   <!-- end intro -->
   
  <!-- Section about -->
-  <section id="about" class="section">
+	<section id="about" class="section">
 		<div class="container">
-		<div class="heading"><h3><span>About me :)</span></h3></div>
-			<div class="row">
-				<div class= "col-lg-4 col-md-4 col-xs-4">
-				   <img src="https://calm-peak-10528.herokuapp.com/assets/img/johnnyprofile.png" alt=""  class="img-responsive" />
-					<div class="roles">
-					  <h5><strong>Johnny Keokongsy</strong></h5>
-					  <p>Front End Developer</p>
-					  <ul class="social-profile">
-						<li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-						<li><a href="#"><i class="fa fa-dribbble fa-lg"></i></a></li>
-					  </ul>
+			<div class="heading"><h3><span>About me :)</span></h3></div>
+				<div class="row">
+					<div class= "col-lg-4 col-md-4 col-xs-4">
+					   <img src="https://calm-peak-10528.herokuapp.com/assets/img/johnnyprofile.png" alt=""  class="img-responsive" />
+						<div class="roles">
+						  <h5><strong>Johnny Keokongsy</strong></h5>
+						  <p>Front End Developer</p>
+						  <ul class="social-profile">
+							<li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble fa-lg"></i></a></li>
+						  </ul>
+						</div>
 					</div>
-				</div>
-				
-				<div class=" col-lg-6 col-md-6 col-xs-6">
-					<div class="sub-heading">
-						<p> Freelance WebDesigner & Developer based in Raleigh,NC. </p>
-						<p>Experienced in HTML5, CSS3, JQuery, JavaScript, PHP, and Mysql.</p>
-						<p>Built and cloned repository using source control software like Git.</p>						 
-						<p>Maintained and build client websites with WordPress.</p>
-						<p>Integrated WordPress based websites with other websites.</p> 
+					<div class=" col-lg-6 col-md-6 col-xs-6">
+						<div class="sub-heading">
+							<p> Freelance WebDesigner & Developer based in Raleigh,NC. </p>
+							<p>Experienced in HTML5, CSS3, JQuery, JavaScript, PHP, and Mysql.</p>
+							<p>Built and cloned repository using source control software like Git.</p>						 
+							<p>Maintained and build client websites with WordPress.</p>
+							<p>Integrated WordPress based websites with other websites.</p> 
+						</div>	
 					</div>	
-				</div>	
-			</div> 
+				</div> 
 		</div>
-  </section>
+	</section>
   <!-- end section about -->
   
   <!-- section works -->
@@ -113,12 +112,12 @@
         </div>
       </div>
 	  
-	   <section class="gray">
+	    <section class="gray">
 	         <div class="container">
 			    <div class="row">
 					 <div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
-							<img src=" https://calm-peak-10528.herokuapp.com/img/service_01.png" alt="analytics-icon">
+							<img src=" https://calm-peak-10528.herokuapp.com/img/service/service_01.png" alt="analytics-icon">
 							<div class="caption">
 								<h3>Front End Design</h3>
 								<p>Art has always been part of my life. Watching technology take Art and bring it to life is amazing.</p>
@@ -128,7 +127,7 @@
 		 
 					<div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
-							<img src="https://calm-peak-10528.herokuapp.com/img/service_02.png" alt="analytics-icon">
+							<img src="https://calm-peak-10528.herokuapp.com/img/service/service_02.png" alt="analytics-icon">
 							<div class="caption">
 								<h3>Back End </h3>
 								<p>Understadning how things work behind the curtins and collecting information.</p>
@@ -138,7 +137,7 @@
 		 
 					<div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
-							<img src="https://calm-peak-10528.herokuapp.com/img/service_03.png" alt="analytics-icon">
+							<img src="https://calm-peak-10528.herokuapp.com/img/service/service_03.png" alt="analytics-icon">
 							<div class="caption">
 								<h3>Putting into Action. </h3>
 								<p>Frameworks helps me get things done quickly. Work alone or work as a team I will enjoy problm solving and learing from others.</p>
@@ -148,7 +147,7 @@
 		 
 					<div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
-							<img src="https://calm-peak-10528.herokuapp.com/img/service_04.png" alt="analytics-icon">
+							<img src="https://calm-peak-10528.herokuapp.com/img/service/service_04.png" alt="analytics-icon">
 							<div class="caption">
 								<h3>Agreement</h3>
 								<p>Understanding what is needed as a developer and agreeing to provide professional quality work to our clients.</p>
