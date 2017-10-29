@@ -372,7 +372,11 @@ ul.social-profile li {
 ul.social-profile li a:hover {
 	text-decoration:none;
 }
-
+.profilepic{
+	height:300px;
+	width:300px;
+	
+}
 
 /* =======================================
 3. Section: Services
