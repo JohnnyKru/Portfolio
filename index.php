@@ -19,94 +19,81 @@
 
 <body>
   <header>
+		<div id="navigation" class="navbar navbar-inverse navbar-fixed-top default" role="navigation">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand" href="clone.php">Johnny Kru Keokongsy</a>
+				</div>
 
-    <div id="navigation" class="navbar navbar-inverse navbar-fixed-top default" role="navigation">
-      <div class="container">
-
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="clone.php">Johnny Kru Keokongsy</a>
-        </div>
-
-        <div class="navigation">
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <nav>
-              <ul class="nav navbar-nav navbar-right">
-                <li class="current"><a href="#intro">Home</a></li>
-                <li><a href="#about">Developer</a></li>
-                <li><a href="#works">Works</a></li>
-				<li><a href="#client">Client</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-          <!-- /.navbar-collapse -->
-        </div>
-
-      </div>
-    </div>
-
+				<div class="navigation">
+				  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<nav>
+					  <ul class="nav navbar-nav navbar-right">
+						<li class="current"><a href="#intro">Home</a></li>
+						<li><a href="#about">Developer</a></li>
+						<li><a href="#works">Works</a></li>
+						<li><a href="#client">Client</a></li>
+						<li><a href="#contact">Contact</a></li>
+					  </ul>
+					</nav>
+				  </div>
+				  <!-- /.navbar-collapse -->
+				</div>
+			</div>
+		</div>
   </header>
+  
   <!-- section intro -->
-  <section id="intro">
-    <ul id="slippry-slider">
-      <li>
-        <a href="#slide1"><img src="assets/img_old/slide/desk.jpg" alt="I'm Driven to be better than I was yesterday."></a>
-      </li>
-      <li>
-        <a href="#slide2"><img src="assets/img_old/slide/NewYork.jpg"  alt="As a developer, I'm passionate about building great things with technology..."></a>
-      </li>
-      <li>
-        <a href="#slide3"><img src="assets/img_old/slide/citylights.jpg" alt=" Because when we build Great things we become better humans !!!<span class='red'>♥</span> :)"></a>
-      </li>
-    </ul>
-  </section>
+    <section id="intro">
+		<ul id="slippry-slider">
+		  <li>
+			<a href="#slide1"><img src="assets/img_old/slide/desk.jpg" alt="I'm Driven to be better than I was yesterday."></a>
+		  </li>
+		  <li>
+			<a href="#slide2"><img src="assets/img_old/slide/NewYork.jpg"  alt="As a developer, I'm passionate about building great things with technology..."></a>
+		  </li>
+		  <li>
+			<a href="#slide3"><img src="assets/img_old/slide/citylights.jpg" alt=" Because when we build Great things we become better humans !!!<span class='red'>♥</span> :)"></a>
+		  </li>
+		</ul>
+    </section>
   <!-- end intro -->
   
-  <!-- Section about -->
+ <!-- Section about -->
   <section id="about" class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="heading">
-            <h3><span>About me :)</span></h3>
-          </div>
-		  <div class="col-md-4">
-          <div data-tilt><div class="team-box bg2"></div>
-            <img src="https://calm-peak-10528.herokuapp.com/assets/img/johnnyprofile.png" alt="" class="img-responsive" />
-            <div class="roles">
-              <h5><strong>Johnny Keokongsy</strong></h5>
-              <p>
-                Front End Developer
-              </p>
-              <ul class="social-profile">
-                <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                <li><a href="#"><i class="fa fa-dribbble fa-lg"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-          <div class="sub-heading">
-           <p> Freelance WebDesigner & Developer based in Raleigh,NC. </p>
-			 <p>Experienced in HTML5, CSS3, JQuery, JavaScript, PHP, and Mysql.</p>
-			 <p>Built and cloned repository using source control software like Git.</p>						 
-			 <p>Maintained and build client websites with WordPress.</p>
-			 <p>Integrated WordPress based websites with other websites.</p> 
-          </div>
-        </div>
-      </div>
-	
-     
- 
-        
-      
-    </div>
+		<div class="container">
+		<div class="heading"><h3><span>About me :)</span></h3></div>
+			<div class="row">
+				<div class= "col-lg-4 col-md-4 col-xs-4">
+				   <img src="https://calm-peak-10528.herokuapp.com/assets/img/johnnyprofile.png" alt=""  class="img-responsive" />
+					<div class="roles">
+					  <h5><strong>Johnny Keokongsy</strong></h5>
+					  <p>Front End Developer</p>
+					  <ul class="social-profile">
+						<li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+						<li><a href="#"><i class="fa fa-dribbble fa-lg"></i></a></li>
+					  </ul>
+					</div>
+				</div>
+				
+				<div class=" col-lg-6 col-md-6 col-xs-6">
+					<div class="sub-heading">
+						<p> Freelance WebDesigner & Developer based in Raleigh,NC. </p>
+						<p>Experienced in HTML5, CSS3, JQuery, JavaScript, PHP, and Mysql.</p>
+						<p>Built and cloned repository using source control software like Git.</p>						 
+						<p>Maintained and build client websites with WordPress.</p>
+						<p>Integrated WordPress based websites with other websites.</p> 
+					</div>	
+				</div>	
+			</div> 
+		</div>
   </section>
   <!-- end section about -->
   
