@@ -63,6 +63,7 @@ h2 {
 
 h3 {
   font-size: 26px;
+  color:red;
 }
 
 h4 {
@@ -92,7 +93,10 @@ h3 small {
 h4 small {
   font-size: 14px;
 }
-
+p{ 
+font-size:20px;
+ color: white; 
+}
 
 .fade{
     position: relative;
@@ -176,6 +180,8 @@ section.dark .heading h3 {
 .sub-heading {
 	text-align:center;
 	margin:20px 0 20px 0;
+	font-size: 20px;
+	color:white;
 }
 
 .sub-heading p {	

@@ -68,7 +68,7 @@
  <!-- Section about -->
 	<section id="about" class="section">
 		<div class="container">
-			<div class="heading"><h3><span>About me :)</span></h3></div>
+			<div class="heading"><h2><span>About me :)</span></h2></div>
 				<div class="row">
 					<div class= "col-lg-4 col-md-4 col-xs-4">
 					   <img src="https://calm-peak-10528.herokuapp.com/assets/img/johnnyprofile.png" alt=""  class="img-responsive" />
@@ -102,7 +102,7 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <div class="heading">
-            <h3 style="color:black;"><span>Recent works</span></h3>
+            <h3 style="color:black;"><span>Recent projects</span></h3>
           </div>
           <div class="sub-heading">
             <p>
@@ -117,7 +117,7 @@
 			    <div class="row">
 					 <div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
-							<img src=" https://calm-peak-10528.herokuapp.com/img/service/service_01.png" alt="analytics-icon">
+							<img src=" https://calm-peak-10528.herokuapp.com/assets/img/service/service_01.png" alt="analytics-icon">
 							<div class="caption">
 								<h3>Front End Design</h3>
 								<p>Art has always been part of my life. Watching technology take Art and bring it to life is amazing.</p>
@@ -127,7 +127,7 @@
 		 
 					<div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
-							<img src="https://calm-peak-10528.herokuapp.com/img/service/service_02.png" alt="analytics-icon">
+							<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_02.png" alt="analytics-icon">
 							<div class="caption">
 								<h3>Back End </h3>
 								<p>Understadning how things work behind the curtins and collecting information.</p>
@@ -137,7 +137,7 @@
 		 
 					<div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
-							<img src="https://calm-peak-10528.herokuapp.com/img/service/service_03.png" alt="analytics-icon">
+							<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_03.png" alt="analytics-icon">
 							<div class="caption">
 								<h3>Putting into Action. </h3>
 								<p>Frameworks helps me get things done quickly. Work alone or work as a team I will enjoy problm solving and learing from others.</p>
@@ -147,7 +147,7 @@
 		 
 					<div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
-							<img src="https://calm-peak-10528.herokuapp.com/img/service/service_04.png" alt="analytics-icon">
+							<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_04.png" alt="analytics-icon">
 							<div class="caption">
 								<h3>Agreement</h3>
 								<p>Understanding what is needed as a developer and agreeing to provide professional quality work to our clients.</p>
@@ -166,12 +166,12 @@
 								<img src="assets/img/portfolio/1.jpg" alt="" />
 							</a>
             </li>
-            <li><a href="assets/img/portfolio/2.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/2.jpg" alt="" /></a></li>
-            <li><a href="assets/img/portfolio/3.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/3.jpg" alt="" /></a></li>
-            <li><a href="assets/img/portfolio/4.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/4.jpg" alt="" /></a></li>
+            <li><a href="assets/img/clients/tgm.png" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/tgm.png" alt="" /></a></li>
+            <li><a href="assets/img/clients/eft.png" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/eft.png" alt="" /></a></li>
+            <li><a href="assets/img/clients/Rapid.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/Rapid.jpg" alt="" /></a></li>
             <li><a href="assets/img/portfolio/5.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/5.jpg" alt="" /></a></li>
             <li><a href="assets/img/portfolio/6.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/6.jpg" alt="" /></a></li>
-            <li><a href="assets/img/portfolio/7.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/7.jpg" alt="" /></a></li>
+            <li><a href="assets/img/clients/Teamlogo.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/Teamlogo.jpg" alt="" /></a></li>
             <li><a href="assets/img/portfolio/8.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/8.jpg" alt="" /></a></li>
             <li><a href="assets/img/portfolio/9.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/9.jpg" alt="" /></a></li>
             <li><a href="assets/img/portfolio/10.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/10.jpg" alt="" /></a></li>
@@ -186,108 +186,99 @@
   </section>
 	<!-- section works -->	 
 	
-	<!-- section Client -->
-  <section id="client" class="section gray">
+	<!-- section Client 
+  <section id="client" class="img-responsive">
         <div class="photo_wrapper">
 		<h1 class="photo_text" style="color:black;"> Clients</h1>
 				<div class="container photo_contain">
 					<div class="row">
-						<div class="col-lg-6">
-								<div class="flip3D">
-								  <div class="back">Worked with TGM team to design their career page. Most of their sucsess came from their recruting process.</div>
-								  <div class="front"><div class="photo1"></div></div>
+						
+								<div class="flip3D" alt="">
+								  <div class="back">Worked with TGM team to design their career page. Most of their sucsess came from their recruting the right people.</div>
+								  <div class="front"><div id="photo1" class="img-responsive"></div></div>
 								</div>
-							
-						</div>
-						<div class="col-lg-6">
-							<div class="flip3D">
-							  <div class="back">Box 2 - Back</div>
-							  <div class="front"> <div class="photo2"></div></div>
+						
+							<div class="flip3D" alt="" >
+							  <div class="back">EFT TRAINING - Back</div>
+							  <div class="front"> <div id="photo2"class="img-responsive" ></div></div>
 							</div>
-						</div>			
-					</div>	
-					<div class="row">
-						<div class="col-lg-6">
-							<div class="flip3D">
-								 <div class="back">Box 3 - Back</div>
-									<div class="front"><div class="photo3"></div>
+									
+						
+					
+						
+							<div class="flip3D" alt="">
+								 <div class="back" >RAPID FITNESS - Back</div>
+									<div class="front"><div id="photo3" class="img-responsive"></div>
 									</div>
 							</div>
-						</div>		
-						<div class="col-lg-6">	
-							<div class="flip3D">
-							  <div class="back">Box 4 - Back</div>
-							  <div class="front"><div class="photo4"></div></div>
+						
+							<div class="flip3D" alt="">
+							  <div class="back">TEAM KRUEL MILITIA MMA - Back</div>
+							  <div class="front"><div id="photo4" class="img-responsive" ></div></div>
 							</div>
-						</div>		 
+							 
 					</div>
 				</div>
-		</div>		
+		</div>	
 	</section>
-	<!--Client section --> 
+	<!--Client section --> -->
 
   <!-- section contact -->
   <section id="contact" class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="heading">
-            <h3><span>Get in touch</span></h3>
-          </div>
-          <div class="sub-heading">
-            <p>
-              Lorem ipsum dolor sit amet, mutat paulo simul per no, assum fastidii vituperata eam no.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-8 col-md-offset-2">
+			  <div class="heading"><br><br>	
+			  
+				<h3><span>Get in touch</span></h3>
+			  </div>
+			  <div class="sub-heading">
+				<p>
+				  Passion in expressing your team's ideas through technology.  Putting customers first in making sure their project is done correctly and on time.
+				</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h4><i class="icon-envelope"></i><strong>Contact form</strong></h4>
-          <p>
-            Want to work with us or just want to say hello? Don't hesitate to get in touch!
-          </p>
-          <!-- start contact form -->
-          <div class="cform" id="contact-form">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validation"></div>
-              </div>
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-6">
+			  <h4><i class="icon-envelope"></i><strong>Contact form</strong></h4>
+			  <p>
+				If you would like to work with me , please don't hesitate to get in touch!
+			  </p>
+			  <!-- start contact form -->
+			  <div class="cform" id="contact-form">
+				<div id="sendmessage">Your message has been sent. Thank you!</div>
+				<div id="errormessage"></div>
+				<form action="" method="post" role="form" class="contactForm">
+				  <div class="form-group">
+					<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+					<div class="validation"></div>
+				  </div>
+				  <div class="form-group">
+					<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+					<div class="validation"></div>
+				  </div>
+				  <div class="form-group">
+					<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+					<div class="validation"></div>
+				  </div>
+				  <div class="form-group">
+					<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+					<div class="validation"></div>
+				  </div>
 
-              <div class="text-center"><button type="submit" class="btn btn-lg btn-theme">Send Message</button></div>
-            </form>
-          </div>
-          <!-- END contact form -->
-        </div>
-        <div class="col-md-6">
-          <h4>Find our location</h4>
-          <p>View from google map</p>
-          <!-- map -->
-          <div id="section-map" class="clearfix">
-            <div id="google-map" data-latitude="35.7719444" data-longitude="-78.6388889"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+				  <div class="text-center"><button type="submit" class="btn btn-lg btn-theme">Send Message</button></div>
+				</form>
+			  </div>
+			  <!-- END contact form -->
+			</div>
+		 
+		  </div>
+		</div>
+	</section>
   <!-- end section contact -->
   <footer>
     <div class="verybottom">
