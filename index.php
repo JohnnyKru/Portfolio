@@ -37,8 +37,8 @@
 					  <ul class="nav navbar-nav navbar-right">
 						<li class="current"><a href="#intro">Home</a></li>
 						<li><a href="#about">Developer</a></li>
-						<li><a href="#works">Works</a></li>
-						<li><a href="#client">Client</a></li>
+						<li><a href="#works">Service</a></li>
+						<li><a href="#Language">Language</a></li>
 						<li><a href="#contact">Contact</a></li>
 					  </ul>
 					</nav>
@@ -76,9 +76,8 @@
 						  <h5><strong>Johnny Keokongsy</strong></h5>
 						  <p>Front End Developer</p>
 						  <ul class="social-profile">
-							<li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-							<li><a href="#"><i class="fa fa-dribbble fa-lg"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/john-keokongsy-87926a33/"><i class="fa fa-facebook fa-lg"></i></a></li>
+							<li><a href="https://twitter.com/JOHNNYKRU"><i class="fa fa-twitter fa-lg"></i></a></li>
 						  </ul>
 						</div>
 					</div>
@@ -102,11 +101,11 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <div class="heading">
-            <h3 style="color:black;"><span>Recent projects</span></h3>
+            <h3 style="color:black;"><span>Portfolio</span></h3>
           </div>
           <div class="sub-heading">
             <p>
-              We have a history of doing what our name implies, creating a visual language around the beliefs of the brands we work with.
+              The brands I've worked with.
             </p>
           </div>
         </div>
@@ -166,7 +165,7 @@
 								<img src="assets/img/portfolio/1.jpg" alt="" />
 							</a>
             </li>
-            <li><a href="assets/img/clients/tgm.png" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/tgm.png" alt="" /></a></li>
+            <li><a href="assets/img/clients/tgm.png" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/tgm.png" alt="Triumph Group Management" /></a></li>
             <li><a href="assets/img/clients/eft.png" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/eft.png" alt="" /></a></li>
             <li><a href="assets/img/clients/Rapid.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/Rapid.jpg" alt="" /></a></li>
             <li><a href="assets/img/portfolio/5.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/5.jpg" alt="" /></a></li>
@@ -186,42 +185,25 @@
   </section>
 	<!-- section works -->	 
 	
-	<!-- section Client 
-  <section id="client" class="img-responsive">
-        <div class="photo_wrapper">
-		<h1 class="photo_text" style="color:black;"> Clients</h1>
-				<div class="container photo_contain">
-					<div class="row">
-						
-								<div class="flip3D" alt="">
-								  <div class="back">Worked with TGM team to design their career page. Most of their sucsess came from their recruting the right people.</div>
-								  <div class="front"><div id="photo1" class="img-responsive"></div></div>
-								</div>
-						
-							<div class="flip3D" alt="" >
-							  <div class="back">EFT TRAINING - Back</div>
-							  <div class="front"> <div id="photo2"class="img-responsive" ></div></div>
-							</div>
-									
-						
-					
-						
-							<div class="flip3D" alt="">
-								 <div class="back" >RAPID FITNESS - Back</div>
-									<div class="front"><div id="photo3" class="img-responsive"></div>
-									</div>
-							</div>
-						
-							<div class="flip3D" alt="">
-							  <div class="back">TEAM KRUEL MILITIA MMA - Back</div>
-							  <div class="front"><div id="photo4" class="img-responsive" ></div></div>
-							</div>
-							 
-					</div>
-				</div>
+	<!-- section language -->
+  
+    <div data-tilt><div class="bg2"></div></div>
+	 <div class="spacer2">
+	 
+	 <section id="Language" class="img-responsive">
+	    <div class="photo_wrapper">
+			<div class="testblock html5"><p id="icon1">HTML5</p><br></div>
+			<div class="testblock css3"><p id="icon2">css3</p><br></div>
+			<div class="testblock github"><p id="icon3">github</p><br></div>
+			<div class="testblock php7"><p id="icon4"> php / Mysql </p><br></div>
+			<div class="testblock wordpress"><p id="icon5"> WordPress </p><br></div>
+		</div>
+		<div class="container photo_contain">
+			    	
 		</div>	
 	</section>
-	<!--Client section --> -->
+	</div>
+	<!--Client section --> 
 
   <!-- section contact -->
   <section id="contact" class="section">
@@ -252,7 +234,7 @@
 			  <div class="cform" id="contact-form">
 				<div id="sendmessage">Your message has been sent. Thank you!</div>
 				<div id="errormessage"></div>
-				<form action="" method="post" role="form" class="contactForm">
+				<form action="mail_send.php" method="post" role="form" class="contactForm">
 				  <div class="form-group">
 					<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
 					<div class="validation"></div>
@@ -288,9 +270,8 @@
             <div class="aligncenter">
               <ul class="social-network social-circle">
                 <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <!--<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>-->
                 <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
                 <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
               </ul>
             </div>
@@ -354,6 +335,8 @@
   </script>
 
   <script src="assets/js/custom.js"></script>
+  <script src="assets/js/tilt.js-master"></script>
+  
   <script src="contactform/contactform.js"></script>
 
 </body>

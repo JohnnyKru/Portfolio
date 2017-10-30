@@ -834,7 +834,7 @@ ul.the-icons {
 	border-radius: 7px 7px;	
 	border:solid 1px black;
 }
-/*============== flip =================*/
+
 
 section  #client{
 position:relative;
@@ -845,38 +845,6 @@ width:800px;
 height:900px;	
 	
 }
-
-
-.flip3D{ width:340px; height:250px; margin:10px; float:left; }
-.flip3D > .front{
-	position:absolute;
-	-webkit-transform: perspective( 600px ) rotateY( 0deg );
-	transform: perspective( 600px ) rotateY( 0deg );
-	background:#FC0; width:340px; height:250px; border-radius: 7px;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	transition: -webkit-transform .5s linear 0s;
-	transition: transform .5s linear 0s;
-}
-.flip3D > .back{
-	position:absolute;
-	-webkit-transform: perspective( 600px ) rotateY( 180deg );
-	transform: perspective( 600px ) rotateY( 180deg );
-	background: #80BFFF; width:340px; height:250px; border-radius: 7px;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	transition: -webkit-transform .5s linear 0s;
-	transition: transform .5s linear 0s;
-}
-.flip3D:hover > .front{
-	-webkit-transform: perspective( 600px ) rotateY( -180deg );
-	transform: perspective( 600px ) rotateY( -180deg );
-}
-.flip3D:hover > .back{
-	-webkit-transform: perspective( 600px ) rotateY( 0deg );
-	transform: perspective( 600px ) rotateY( 0deg );
-}
-
 
 .thumbnail {
 	border:0;
@@ -1324,3 +1292,103 @@ a.socialIcon:hover, .socialHoverClass {
 		margin-bottom: 30px;
 	}
 }
+
+
+   .bg2{
+	   position:relative;
+	  width:100%;
+	 height:800px;
+	  background-image:url('http://localhost/Portfolio/assets/img/slide/NewYork.jpg');
+	  background-repeat: no-repeat;
+    background-attachment: fixed;	
+	background-size: cover;
+ }
+  .spacer2{
+	 position:relative;
+	 width:100%;
+	 height:400px;
+	 background:white;
+	 z-index:3;
+ }
+
+/* Animation */
+
+.testblock {
+	-moz-transition:all 0.6s ease;
+	-webkit-transition:all 0.6s ease;
+	-ms-transition:all 0.6s ease;
+	-o-transition:all 0.6s ease;
+	transition:all 0.6s ease;
+}
+.testblock:hover {
+	-moz-transform:scale(1.09);
+	-webkit-transform:scale(1.09);
+	-o-transform:scale(1.09);
+	-ms-transform:scale(1.09);
+	transform:scale(1.09);
+	z-index:2;
+}
+.html5 {
+position:absolute;
+top:40px;
+left:10%;
+height:150px;
+width:150px;
+background-image: url("http://localhost/Portfolio/assets/img/langIcon/html5.png");	
+background-size: cover;
+}
+#icon1{
+	position:relative;
+	top:80px;
+}
+.css3{
+position:absolute;
+top:40px;
+left:20%;
+height:150px;
+width:150px;
+background-image: url("http://localhost/Portfolio/assets/img/langIcon/css3.png");	
+background-size: cover;
+}
+#icon2{
+	position:relative;
+	top:80px;
+}
+.github {
+position:absolute;
+top:40px;
+left:30%;
+height:150px;
+width:150px;
+background-image: url("http://localhost/Portfolio/assets/img/langIcon/git.png");	
+background-size: cover;
+}
+#icon3{
+	position:relative;
+	top:80px;
+}
+.php7 {
+position:absolute;
+top:40px;
+left:40%;
+height:150px;
+width:250px;
+background-image: url("http://localhost/Portfolio/assets/img/langIcon/php7.jpg");	
+background-size: cover;
+}
+#icon4{
+	position:relative;
+	top:80px;
+}
+.wordpress{
+	position:absolute;
+    top:40px;
+    left:60%;
+    height:150px;
+    width:150px;
+    background-image: url("http://localhost/Portfolio/assets/img/langIcon/wordpress.jpg");	
+    background-size: cover;
+}
+
+
+
