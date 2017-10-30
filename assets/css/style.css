@@ -779,14 +779,13 @@ ul.the-icons {
 
 
 /*====== Flip ========*/
-
-.photo_wrapper{
-	position:relative;
-	height:900px;
-	width:1000px;
-	text-align:center;
-    margin: 0 auto;
+.service_wrap{
+	width:900px;
+	height:400px;
+	position:center;
+	
 }
+
 
 .photo_contain{
 	position:relative;
@@ -794,7 +793,6 @@ ul.the-icons {
 	left:20px;
 	height:600px;
 	width:800px;
-	
     margin: 0 auto;
 }
 .photo1{
@@ -1298,7 +1296,7 @@ a.socialIcon:hover, .socialHoverClass {
 	   position:relative;
 	  width:100%;
 	 height:800px;
-	  background-image:url('http://localhost/Portfolio/assets/img/slide/NewYork.jpg');
+	  background-image:url('https://calm-peak-10528.herokuapp.com/assets/img/slide/NewYork.jpg');
 	  background-repeat: no-repeat;
     background-attachment: fixed;	
 	background-size: cover;
@@ -1328,67 +1326,75 @@ a.socialIcon:hover, .socialHoverClass {
 	transform:scale(1.09);
 	z-index:2;
 }
+
+.photo_wrapper{
+	position:center;
+	top:10px;
+	height:200px;
+	width:980px;
+	margin:0 auto;
+	
+}
+
 .html5 {
-position:absolute;
-top:40px;
-left:10%;
+position:relative;
 height:150px;
 width:150px;
-background-image: url("http://localhost/Portfolio/assets/img/langIcon/html5.png");	
+background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/html5.png");	
 background-size: cover;
 }
 #icon1{
 	position:relative;
-	top:80px;
+	color:black;
+	font-family:bold;
 }
 .css3{
-position:absolute;
-top:40px;
-left:20%;
+position:relative;
 height:150px;
 width:150px;
-background-image: url("http://localhost/Portfolio/assets/img/langIcon/css3.png");	
+background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/css3.png");	
 background-size: cover;
 }
 #icon2{
 	position:relative;
-	top:80px;
+	color:black;
+	font-family:bold;
 }
 .github {
-position:absolute;
-top:40px;
-left:30%;
+position:relative;
 height:150px;
 width:150px;
-background-image: url("http://localhost/Portfolio/assets/img/langIcon/git.png");	
+background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/git.png");	
 background-size: cover;
 }
 #icon3{
 	position:relative;
-	top:80px;
+    color:black;
+	font-family:bold;
 }
 .php7 {
-position:absolute;
-top:40px;
-left:40%;
+position:relative;
 height:150px;
 width:250px;
-background-image: url("http://localhost/Portfolio/assets/img/langIcon/php7.jpg");	
+background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/php7.jpg");	
 background-size: cover;
 }
 #icon4{
 	position:relative;
-	top:80px;
+	color:black;
+	font-family:bold;
 }
 .wordpress{
-	position:absolute;
-    top:40px;
-    left:60%;
+	position:relative;
     height:150px;
     width:150px;
-    background-image: url("http://localhost/Portfolio/assets/img/langIcon/wordpress.jpg");	
+    background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/wordpress.jpg");	
     background-size: cover;
 }
-
+#icon5{
+	position:relative;
+	color:black;
+	font-family:bold;
+}
 
 

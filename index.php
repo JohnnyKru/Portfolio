@@ -112,7 +112,7 @@
       </div>
 	  
 	    <section class="gray">
-	         <div class="container">
+	         <div class=" service_wrap container">
 			    <div class="row">
 					 <div class="col-sm-6 col-md-3">
 						<div class="thumbnail"> 
@@ -186,23 +186,28 @@
 	<!-- section works -->	 
 	
 	<!-- section language -->
-  
-    <div data-tilt><div class="bg2"></div></div>
-	 <div class="spacer2">
-	 
-	 <section id="Language" class="img-responsive">
-	    <div class="photo_wrapper">
-			<div class="testblock html5"><p id="icon1">HTML5</p><br></div>
-			<div class="testblock css3"><p id="icon2">css3</p><br></div>
-			<div class="testblock github"><p id="icon3">github</p><br></div>
-			<div class="testblock php7"><p id="icon4"> php / Mysql </p><br></div>
-			<div class="testblock wordpress"><p id="icon5"> WordPress </p><br></div>
-		</div>
-		<div class="container photo_contain">
-			    	
-		</div>	
-	</section>
+     <div class="spacer2">
+		 <section id="Language" class="img-responsive">	
+			<div class="photo_wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="testblock html5 col-md-6"><p id="icon1">HTML5</p><br></div>
+						<div class="testblock css3 col-md-6"><p id="icon2">css3</p><br></div>
+						<div class="testblock github col-md-6"><p id="icon3">github</p><br></div>
+						<div class="testblock php7  col-md-6" ><p id="icon4"> php / Mysql </p><br></div>
+						<div class="testblock wordpress col-md-6"><p id="icon5"> WordPress </p><br></div>
+					</div>
+					<h1><a href="https://codepen.io/KRU/">PORTFOLIO ON <img src="https://calm-peak-10528.herokuapp.com/assets/img/codepen.png"> </a></h1>
+				</div>
+			</div>		
+		</section>
 	</div>
+    <div data-tilt>
+	    <div class="bg2">
+	
+	    </div>
+	</div>
+	 
 	<!--Client section --> 
 
   <!-- section contact -->
@@ -257,7 +262,9 @@
 			  </div>
 			  <!-- END contact form -->
 			</div>
-		 
+		    <div class="container photo_contain">
+			 <!-- Ad Area -->    	
+		    </div>
 		  </div>
 		</div>
 	</section>
