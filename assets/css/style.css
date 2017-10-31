@@ -63,7 +63,7 @@ h2 {
 
 h3 {
   font-size: 26px;
-  color:red;
+ 
 }
 
 h4 {
@@ -166,7 +166,7 @@ blockquote {
 	margin:20px 0 30px 0;
 	font-size:40px;
 	font-weight:700;
-	text-align:center;
+	text-align:left;
 	width:auto;
 	display:inline;
 }
@@ -178,7 +178,7 @@ section.dark .heading h3 {
 /* sub heading */
 
 .sub-heading {
-	text-align:center;
+	text-align:left;
 	margin:20px 0 20px 0;
 	font-size: 20px;
 	color:white;
@@ -188,7 +188,7 @@ section.dark .heading h3 {
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	line-height:1.6em;
-	color: #3a3a3a;
+	color:#fff;
 	font-weight:300;
 }
 
@@ -1304,9 +1304,10 @@ a.socialIcon:hover, .socialHoverClass {
   .spacer2{
 	 position:relative;
 	 width:100%;
-	 height:400px;
+	 height:550px;
 	 background:white;
 	 z-index:3;
+	
  }
 
 /* Animation */

@@ -70,24 +70,24 @@
 		<div class="container">
 			<div class="heading"><h2><span>About me :)</span></h2></div>
 				<div class="row">
-					<div class= "col-lg-4 col-md-4 col-xs-4">
+					<div class= " col-md-4 col-xs-3">
 					   <img src="https://calm-peak-10528.herokuapp.com/assets/img/johnnyprofile.png" alt=""  class="img-responsive" />
 						<div class="roles">
 						  <h5><strong>Johnny Keokongsy</strong></h5>
 						  <p>Front End Developer</p>
 						  <ul class="social-profile">
-							<li><a href="https://www.linkedin.com/in/john-keokongsy-87926a33/"><i class="fa fa-facebook fa-lg"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/john-keokongsy-87926a33/"><i class="fa fa-linkedin fa-lg"></i></a></li>
 							<li><a href="https://twitter.com/JOHNNYKRU"><i class="fa fa-twitter fa-lg"></i></a></li>
 						  </ul>
 						</div>
 					</div>
 					<div class=" col-lg-6 col-md-6 col-xs-6">
 						<div class="sub-heading">
-							<p> Freelance WebDesigner & Developer based in Raleigh,NC. </p>
-							<p>Experienced in HTML5, CSS3, JQuery, JavaScript, PHP, and Mysql.</p>
-							<p>Built and cloned repository using source control software like Git.</p>						 
-							<p>Maintained and build client websites with WordPress.</p>
-							<p>Integrated WordPress based websites with other websites.</p> 
+							<p>-  Freelance WebDesigner & Developer based in Raleigh,NC. </p>
+							<p>- Experienced in HTML5, CSS3, JQuery, JavaScript, PHP, and Mysql.</p><br>
+							<p>- Built and cloned repository using source control software like Git.</p>						 
+							<p>- Maintained and build client websites with WordPress.</p>
+							<p>- Integrated WordPress based websites with other websites.</p> 
 						</div>	
 					</div>	
 				</div> 
@@ -101,11 +101,11 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <div class="heading">
-            <h3 style="color:black;"><span>Portfolio</span></h3>
+            <h3 style="color:black;"><span>My professional experiences:</span></h3>
           </div>
           <div class="sub-heading">
             <p>
-              The brands I've worked with.
+            Customer Driven / Web Designer / Back End Developer / 3 plus years working start ups.
             </p>
           </div>
         </div>
@@ -118,7 +118,7 @@
 						<div class="thumbnail"> 
 							<img src=" https://calm-peak-10528.herokuapp.com/assets/img/service/service_01.png" alt="analytics-icon">
 							<div class="caption">
-								<h3>Front End Design</h3>
+								<h3 style="color:red;">Front End Design</h3>
 								<p>Art has always been part of my life. Watching technology take Art and bring it to life is amazing.</p>
 							</div>
 						</div><! --/thumbnail -->
@@ -128,7 +128,7 @@
 						<div class="thumbnail"> 
 							<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_02.png" alt="analytics-icon">
 							<div class="caption">
-								<h3>Back End </h3>
+								<h3 style="color:red;">Back End Developer</h3>
 								<p>Understadning how things work behind the curtins and collecting information.</p>
 							</div>
 						</div><! --/thumbnail -->
@@ -138,8 +138,8 @@
 						<div class="thumbnail"> 
 							<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_03.png" alt="analytics-icon">
 							<div class="caption">
-								<h3>Putting into Action. </h3>
-								<p>Frameworks helps me get things done quickly. Work alone or work as a team I will enjoy problm solving and learing from others.</p>
+								<h3 style="color:red;">Putting into Action. </h3>
+								<p>Frameworks helps me get things done quickly. Work alone or work as a team I will enjoy problem solving and learing from others.</p>
 							</div>
 						</div><! --/thumbnail -->
 					</div><! --/col-sm-6-->
@@ -148,8 +148,8 @@
 						<div class="thumbnail"> 
 							<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_04.png" alt="analytics-icon">
 							<div class="caption">
-								<h3>Agreement</h3>
-								<p>Understanding what is needed as a developer and agreeing to provide professional quality work to our clients.</p>
+								<h3 style="color:red;">Agreement</h3>
+								<p>Understanding what is needed as a developer and always provide professional quality work to my clients.</p>
 							</div>
 						</div><! --/thumbnail -->
 				    </div><! --/col-sm-6-->
@@ -159,25 +159,26 @@
 	  
       <div class="row">
         <div class="col-md-12">
+		  <h1 style="text-align:center; color:black;">Brands I've worked for:</h1>
           <ul class="grid effect" id="grid">
             <li>
-              <a class="fancybox" data-fancybox-group="gallery" title="Portfolio name" href="assets/img/portfolio/1.jpg">
-								<img src="assets/img/portfolio/1.jpg" alt="" />
+              <a class="fancybox" data-fancybox-group="gallery" title="Portfolio name" href="#">
+								<img src="#" alt="" />
 							</a>
             </li>
             <li><a href="assets/img/clients/tgm.png" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/tgm.png" alt="Triumph Group Management" /></a></li>
             <li><a href="assets/img/clients/eft.png" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/eft.png" alt="" /></a></li>
             <li><a href="assets/img/clients/Rapid.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/Rapid.jpg" alt="" /></a></li>
-            <li><a href="assets/img/portfolio/5.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/5.jpg" alt="" /></a></li>
-            <li><a href="assets/img/portfolio/6.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/6.jpg" alt="" /></a></li>
+            <li><a href="assets/img/clients/ls.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/ls.jpg" alt="" /></a></li>
+            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
             <li><a href="assets/img/clients/Teamlogo.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/Teamlogo.jpg" alt="" /></a></li>
-            <li><a href="assets/img/portfolio/8.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/8.jpg" alt="" /></a></li>
-            <li><a href="assets/img/portfolio/9.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/9.jpg" alt="" /></a></li>
-            <li><a href="assets/img/portfolio/10.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/10.jpg" alt="" /></a></li>
-            <li><a href="assets/img/portfolio/11.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/11.jpg" alt="" /></a></li>
-            <li><a href="assets/img/portfolio/12.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/12.jpg" alt="" /></a></li>
-            <li><a href="assets/img/portfolio/13.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/13.jpg" alt="" /></a></li>
-            <li><a href="assets/img/portfolio/14.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/14.jpg" alt="" /></a></li>
+            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+            <li><a href="#"      class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
           </ul>
 		    </div>
       </div>
@@ -187,7 +188,7 @@
 	
 	<!-- section language -->
      <div class="spacer2">
-		 <section id="Language" class="img-responsive">	
+		 <section id="Language" >
 			<div class="photo_wrapper">
 				<div class="container">
 					<div class="row">
@@ -197,7 +198,8 @@
 						<div class="testblock php7  col-md-6" ><p id="icon4"> php / Mysql </p><br></div>
 						<div class="testblock wordpress col-md-6"><p id="icon5"> WordPress </p><br></div>
 					</div>
-					<h1><a href="https://codepen.io/KRU/">PORTFOLIO ON <img src="https://calm-peak-10528.herokuapp.com/assets/img/codepen.png"> </a></h1>
+						<h1 class="col-md-2 col-lg-12">	<a href="https://codepen.io/KRU/" style="color:blue;">More Portfolio samples on wwww.CodePen.io: <br>
+			<img src="https://calm-peak-10528.herokuapp.com/assets/img/codepen.png"> </a></h1>
 				</div>
 			</div>		
 		</section>
@@ -217,12 +219,12 @@
 			<div class="col-md-8 col-md-offset-2">
 			  <div class="heading"><br><br>	
 			  
-				<h3><span>Get in touch</span></h3>
+				<h3><span>Why work with me ?</span></h3>
 			  </div>
 			  <div class="sub-heading">
-				<p>
-				  Passion in expressing your team's ideas through technology.  Putting customers first in making sure their project is done correctly and on time.
-				</p>
+				<p style="color:white;">
+				  My passion is to solve problems. </p> 
+				  <p style="color:white;">Work with a team of brilliant individuals by expressing ideas and making them real through technology.</p>
 			  </div>
 			</div>
 		  </div>
