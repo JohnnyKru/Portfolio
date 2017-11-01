@@ -20,7 +20,7 @@
 <body>
   <header>
 		<div id="navigation" class="navbar navbar-inverse navbar-fixed-top default" role="navigation">
-			<div class="container">
+			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -38,6 +38,7 @@
 						<li class="current"><a href="#intro">Home</a></li>
 						<li><a href="#about">Developer</a></li>
 						<li><a href="#works">Service</a></li>
+						<li><a href="#brand">Brand</a></li>
 						<li><a href="#Language">Language</a></li>
 						<li><a href="#contact">Contact</a></li>
 					  </ul>
@@ -70,7 +71,7 @@
 		<div class="container">
 			<div class="heading"><h2><span>About me :)</span></h2></div>
 				<div class="row">
-					<div class= " col-md-4 col-xs-3">
+					<div class= " col-md-4 col-xs-6">
 					   <img src="https://calm-peak-10528.herokuapp.com/assets/img/johnnyprofile.png" alt=""  class="img-responsive" />
 						<div class="roles">
 						  <h5><strong>Johnny Keokongsy</strong></h5>
@@ -81,7 +82,7 @@
 						  </ul>
 						</div>
 					</div>
-					<div class=" col-lg-6 col-md-6 col-xs-6">
+					<div class=" col-lg-6 col-md-6 col-xs-12">
 						<div class="sub-heading">
 							<p>-  Freelance WebDesigner & Developer based in Raleigh,NC. </p>
 							<p>- Experienced in HTML5, CSS3, JQuery, JavaScript, PHP, and Mysql.</p><br>
@@ -111,30 +112,31 @@
         </div>
       </div>
 	  
-	    <section class="gray">
-	         <div class=" service_wrap container">
-			    <div class="row">
-					 <div class="col-sm-6 col-md-3">
-						<div class="thumbnail"> 
-							<img src=" https://calm-peak-10528.herokuapp.com/assets/img/service/service_01.png" alt="analytics-icon">
-							<div class="caption">
-								<h3 style="color:red;">Front End Design</h3>
-								<p>Art has always been part of my life. Watching technology take Art and bring it to life is amazing.</p>
-							</div>
-						</div><! --/thumbnail -->
-					</div><! --/col-sm-6-->
-		 
-					<div class="col-sm-6 col-md-3">
-						<div class="thumbnail"> 
-							<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_02.png" alt="analytics-icon">
-							<div class="caption">
-								<h3 style="color:red;">Back End Developer</h3>
-								<p>Understadning how things work behind the curtins and collecting information.</p>
-							</div>
-						</div><! --/thumbnail -->
-					</div><! --/col-sm-6-->
-		 
-					<div class="col-sm-6 col-md-3">
+	<section class="gray">
+	    <div class=" service_wrap ">
+			<div class="container-fluid">
+				<div class="row">
+						 <div class="col-sm-12 col-md-6 col-lg-6">
+							<div class="thumbnail"> 
+								<img src=" https://calm-peak-10528.herokuapp.com/assets/img/service/service_01.png" alt="analytics-icon">
+								<div class="caption">
+									<h3 style="color:red;">Front End Design</h3>
+									<p>Art has always been part of my life. Watching technology take Art and bring it to life is amazing.</p>
+								</div>
+							</div><! --/thumbnail -->
+						</div><! --/col-sm-6-->
+			 
+						<div class="col-sm-12 col-md-6  col-lg-6">
+							<div class="thumbnail"> 
+								<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_02.png" alt="analytics-icon">
+								<div class="caption">
+									<h3 style="color:red;">Back End Developer</h3>
+									<p>Understadning how things work behind the curtins and collecting information.</p>
+								</div>
+							</div><! --/thumbnail -->
+						</div><! --/col-sm-6-->
+					<div class="clearfix "></div>
+					<div class="col-sm-12 col-md-6 col-lg-6">
 						<div class="thumbnail"> 
 							<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_03.png" alt="analytics-icon">
 							<div class="caption">
@@ -143,8 +145,8 @@
 							</div>
 						</div><! --/thumbnail -->
 					</div><! --/col-sm-6-->
-		 
-					<div class="col-sm-6 col-md-3">
+			
+					<div class="col-sm-12 col-md-6 col-lg-6">
 						<div class="thumbnail"> 
 							<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_04.png" alt="analytics-icon">
 							<div class="caption">
@@ -152,38 +154,45 @@
 								<p>Understanding what is needed as a developer and always provide professional quality work to my clients.</p>
 							</div>
 						</div><! --/thumbnail -->
-				    </div><! --/col-sm-6-->
+					</div><! --/col-sm-6-->
+			    </div>
+			</div>
+		</div>	
+	</section><! --/section -->
+		
+	<section id= "brand" class="gray"> 
+	    <div class="container">
+			<div class="row">
+				<div class="col-md-12">
+				  <h1 class="brandarea" style="text-align:center; color:black;">Clients I've worked with:</h1>
+				  <ul class="grid effect" id="grid">
+					<li>
+					  <a class="fancybox" data-fancybox-group="gallery" title="Portfolio name" href="#">
+					<img src="#" alt="" />
+									</a>
+					</li>
+					<li><a href="assets/img/clients/tgm.png" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/tgm.png" alt="Triumph Group Management" /></a></li>
+					<li><a href="assets/img/clients/eft.png" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/eft.png" alt="" /></a></li>
+					<li><a href="assets/img/clients/Rapid.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/Rapid.jpg" alt="" /></a></li>
+					<li><a href="assets/img/clients/ls.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/ls.jpg" alt="" /></a></li>
+					<li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+					<li><a href="assets/img/clients/Teamlogo.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/Teamlogo.jpg" alt="" /></a></li>
+					<li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+					<li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+					<li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+					<li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+					<li><a href="#"      class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+					<li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+					<li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
+				  </ul>
 				</div>
-			</div>		
-		</section><! --/section -->
-	  
-      <div class="row">
-        <div class="col-md-12">
-		  <h1 style="text-align:center; color:black;">Brands I've worked for:</h1>
-          <ul class="grid effect" id="grid">
-            <li>
-              <a class="fancybox" data-fancybox-group="gallery" title="Portfolio name" href="#">
-								<img src="#" alt="" />
-							</a>
-            </li>
-            <li><a href="assets/img/clients/tgm.png" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/tgm.png" alt="Triumph Group Management" /></a></li>
-            <li><a href="assets/img/clients/eft.png" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/eft.png" alt="" /></a></li>
-            <li><a href="assets/img/clients/Rapid.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/Rapid.jpg" alt="" /></a></li>
-            <li><a href="assets/img/clients/ls.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/ls.jpg" alt="" /></a></li>
-            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
-            <li><a href="assets/img/clients/Teamlogo.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/clients/Teamlogo.jpg" alt="" /></a></li>
-            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
-            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
-            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
-            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
-            <li><a href="#"      class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
-            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
-            <li><a href="#" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="#" alt="" /></a></li>
-          </ul>
-		    </div>
-      </div>
-    </div>
-  </section>
+				 <br>
+					<h1 class="codepen col-xs-3 col-md-6 col-lg-12">	<a href="https://codepen.io/KRU/" style="color:blue;">More Portfolio samples on wwww.CodePen.io: <br>
+					<img src="https://calm-peak-10528.herokuapp.com/assets/img/codepen.png"> </a>
+					</h1>
+			</div>
+		</div>
+    </section>
 	<!-- section works -->	 
 	
 	<!-- section language -->
@@ -197,9 +206,7 @@
 						<div class="testblock github col-md-6"><p id="icon3">github</p><br></div>
 						<div class="testblock php7  col-md-6" ><p id="icon4"> php / Mysql </p><br></div>
 						<div class="testblock wordpress col-md-6"><p id="icon5"> WordPress </p><br></div>
-					</div>
-						<h1 class="col-md-2 col-lg-12">	<a href="https://codepen.io/KRU/" style="color:blue;">More Portfolio samples on wwww.CodePen.io: <br>
-			<img src="https://calm-peak-10528.herokuapp.com/assets/img/codepen.png"> </a></h1>
+					</div>	
 				</div>
 			</div>		
 		</section>
