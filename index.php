@@ -54,10 +54,10 @@
     <section id="intro">
 		<ul id="slippry-slider">
 		  <li>
-			<a href="#slide1"><img src="assets/img/slide/desk.jpg" alt="I'm Driven to be better than I was yesterday."></a>
+			<a href="#slide1"><img src="assets/img/slide/desk.jpg" alt=" Driven to be better than I was yesterday.."></a>
 		  </li>
 		  <li>
-			<a href="#slide2"><img src="assets/img/slide/NewYork.jpg"  alt="As a developer, I'm passionate about building great things with technology..."></a>
+			<a href="#slide2"><img src="assets/img/slide/NewYork.jpg"  alt="I'm passionate about building great things with technology..."></a>
 		  </li>
 		  <li>
 			<a href="#slide3"><img src="assets/img/slide/citylights.jpg" alt=" Because when we build Great things we become better humans !!!<span class='red'>♥</span> :)"></a>
@@ -71,7 +71,7 @@
 		<div class="container">
 			<div class="heading"><h2><span>About me :)</span></h2></div>
 				<div class="row">
-					<div class= " col-md-4 col-xs-6">
+					<div class= " col-md-4 col-xs-6 col-lg-2">
 					   <img src="https://calm-peak-10528.herokuapp.com/assets/img/johnnyprofile.png" alt=""  class="img-responsive" />
 						<div class="roles">
 						  <h5><strong>Johnny Keokongsy</strong></h5>
@@ -96,37 +96,39 @@
 	</section>
   <!-- end section about -->
   
-  <!-- section works -->
-  <section id="works" class="section gray">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="heading">
-            <h3 style="color:black;"><span>My professional experiences:</span></h3>
-          </div>
-          <div class="sub-heading">
-            <p>
-            Customer Driven / Web Designer / Back End Developer / 3 plus years working start ups.
-            </p>
-          </div>
-        </div>
-      </div>
-	  
+	  <!-- section works -->
+	<section id="works" class="section gray">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-8 col-md-offset-2">
+			  <div class="heading">
+				<h3 style="color:black;"><span>Professional experiences:</span></h3>
+			  </div>
+			  <div class="sub-heading">
+				<p>
+				Customer Driven / Web Designer / Back End Developer / 3 plus years working start ups.
+				</p>
+			  </div>
+			</div>
+		  </div>
+		 </div> 
+	</section>
+	
 	<section class="gray">
 	    <div class=" service_wrap ">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row">
-						 <div class="col-sm-12 col-md-6 col-lg-6">
-							<div class="thumbnail"> 
+				    <div class="col-sm-12 col-md-4 col-lg-4">
+						<div class="thumbnail"> 
 								<img src=" https://calm-peak-10528.herokuapp.com/assets/img/service/service_01.png" alt="analytics-icon">
 								<div class="caption">
 									<h3 style="color:red;">Front End Design</h3>
 									<p>Art has always been part of my life. Watching technology take Art and bring it to life is amazing.</p>
 								</div>
-							</div><! --/thumbnail -->
-						</div><! --/col-sm-6-->
+						</div><! --/thumbnail -->
+					</div><! --/col-sm-6-->
 			 
-						<div class="col-sm-12 col-md-6  col-lg-6">
+						<div class="col-sm-12 col-md-4 col-lg-4">
 							<div class="thumbnail"> 
 								<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_02.png" alt="analytics-icon">
 								<div class="caption">
@@ -136,7 +138,7 @@
 							</div><! --/thumbnail -->
 						</div><! --/col-sm-6-->
 					<div class="clearfix "></div>
-					<div class="col-sm-12 col-md-6 col-lg-6">
+					<div class="col-sm-12 col-md-4 col-lg-4">
 						<div class="thumbnail"> 
 							<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_03.png" alt="analytics-icon">
 							<div class="caption">
@@ -146,7 +148,7 @@
 						</div><! --/thumbnail -->
 					</div><! --/col-sm-6-->
 			
-					<div class="col-sm-12 col-md-6 col-lg-6">
+					<div class="col-sm-12 col-md-4 col-lg-4">
 						<div class="thumbnail"> 
 							<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_04.png" alt="analytics-icon">
 							<div class="caption">
@@ -211,11 +213,7 @@
 			</div>		
 		</section>
 	</div>
-    <div data-tilt>
-	    <div class="bg2">
-	
-	    </div>
-	</div>
+    <div data-tilt><div class="bg2"></div></div>
 	 
 	<!--Client section --> 
 
@@ -270,10 +268,12 @@
 				</form>
 			  </div>
 			  <!-- END contact form -->
-			</div>
-		    <div class="container photo_contain">
-			 <!-- Ad Area -->    	
+			  <!-- Ad Area -->  
+			  <div class="container photo_contain">
+		  	
 		    </div>
+			
+			</div>
 		  </div>
 		</div>
 	</section>
