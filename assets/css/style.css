@@ -179,7 +179,7 @@ section.dark .heading h3 {
 /* sub heading */
 
 .sub-heading {
-	text-align:left;
+	text-align:center;
 	margin:20px 0 20px 0;
 	font-size: 20px;
 	color:white;
@@ -783,22 +783,22 @@ ul.the-icons {
 /*====== Service ========*/
 .service_wrap{
 	position:relative;
-	top:0px;
+	top:-100px;
 	width:800px;
 	height:600px;
 	margin: 0 auto;
 	background:pink;
 	overflow:scroll ;
+	border:solid 1px black;
 	 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
 
 
 .photo_contain{
 	position:relative;
-	top:40px;
-	left:20px;
-	height:200px;
-	width:100%;
+	top:100px;
+	height:400px;
+	width:500px;
 	background:blue;
     margin: 0 auto;
 }
@@ -1345,7 +1345,7 @@ a.socialIcon:hover, .socialHoverClass {
 position:relative;
 height:150px;
 width:150px;
-background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/html5.png");	
+background-image: url("../assets/img/langIcon/html5.png");	
 background-size: cover;
 }
 #icon1{
@@ -1353,11 +1353,12 @@ background-size: cover;
 	color:black;
 	font-family:bold;
 }
+
 .css3{
 position:relative;
 height:150px;
 width:150px;
-background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/css3.png");	
+background-image: url("../assets/img/langIcon/css3.png");	
 background-size: cover;
 }
 #icon2{
@@ -1365,11 +1366,12 @@ background-size: cover;
 	color:black;
 	font-family:bold;
 }
+
 .github {
 position:relative;
 height:150px;
 width:150px;
-background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/git.png");	
+background-image: url("../assets/img/langIcon/git.png");	
 background-size: cover;
 }
 #icon3{
@@ -1377,11 +1379,12 @@ background-size: cover;
     color:black;
 	font-family:bold;
 }
+
 .php7 {
 position:relative;
 height:150px;
 width:250px;
-background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/php7.jpg");	
+background-image: url("../assets/img/langIcon/php7.jpg");	
 background-size: cover;
 }
 #icon4{
@@ -1389,11 +1392,12 @@ background-size: cover;
 	color:black;
 	font-family:bold;
 }
+
 .wordpress{
 	position:relative;
     height:150px;
     width:150px;
-    background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/wordpress.jpg");	
+    background-image: url("../assets/img/langIcon/wordpress.jpg");	
     background-size: cover;
 }
 #icon5{

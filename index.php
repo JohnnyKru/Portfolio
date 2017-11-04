@@ -109,16 +109,8 @@
 				Customer Driven / Web Designer / Back End Developer / 3 plus years working start ups.
 				</p>
 			  </div>
-			</div>
-		  </div>
-		 </div> 
-	</section>
-	
-	<section class="gray">
-	    <div class=" service_wrap ">
-			<div class="container">
-				<div class="row">
-				    <div class="col-sm-12 col-md-4 col-lg-4">
+                  <div class="row">
+				    <div class="col-sm-12 col-md-6 col-lg-6">
 						<div class="thumbnail"> 
 								<img src=" https://calm-peak-10528.herokuapp.com/assets/img/service/service_01.png" alt="analytics-icon">
 								<div class="caption">
@@ -128,7 +120,7 @@
 						</div><! --/thumbnail -->
 					</div><! --/col-sm-6-->
 			 
-						<div class="col-sm-12 col-md-4 col-lg-4">
+						<div class="col-sm-12 col-md-6 col-lg-6">
 							<div class="thumbnail"> 
 								<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_02.png" alt="analytics-icon">
 								<div class="caption">
@@ -138,7 +130,7 @@
 							</div><! --/thumbnail -->
 						</div><! --/col-sm-6-->
 					<div class="clearfix "></div>
-					<div class="col-sm-12 col-md-4 col-lg-4">
+					<div class="col-sm-12 col-md-6 col-lg-6">
 						<div class="thumbnail"> 
 							<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_03.png" alt="analytics-icon">
 							<div class="caption">
@@ -148,15 +140,31 @@
 						</div><! --/thumbnail -->
 					</div><! --/col-sm-6-->
 			
-					<div class="col-sm-12 col-md-4 col-lg-4">
+					<div class="col-sm-12 col-md-6 col-lg-6">
 						<div class="thumbnail"> 
 							<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_04.png" alt="analytics-icon">
 							<div class="caption">
 								<h3 style="color:red;">Agreement</h3>
-								<p>Understanding what is needed as a developer and always provide professional quality work to my clients.</p>
+								<p>Understanding what is needed as a developer and always providing professional quality work to my clients.</p>
 							</div>
 						</div><! --/thumbnail -->
 					</div><! --/col-sm-6-->
+			    </div>
+
+
+
+			</div>
+		  </div>
+		 </div> 
+	</section>
+	
+	<section class="gray">
+	    <div class=" service_wrap ">
+			<div class="container">
+				<div class="row">
+				    
+			 
+			
 			    </div>
 			</div>
 		</div>	
@@ -213,8 +221,6 @@
 			</div>		
 		</section>
 	</div>
-    <div data-tilt><div class="bg2"></div></div>
-	 
 	<!--Client section --> 
 
   <!-- section contact -->
@@ -223,13 +229,12 @@
 		  <div class="row">
 			<div class="col-md-8 col-md-offset-2">
 			  <div class="heading"><br><br>	
-			  
 				<h3><span>Why work with me ?</span></h3>
 			  </div>
 			  <div class="sub-heading">
 				<p style="color:white;">
 				  My passion is to solve problems. </p> 
-				  <p style="color:white;">Work with a team of brilliant individuals by expressing ideas and making them real through technology.</p>
+				  <p style="color:white;">Working on a team of brilliant individuals or working alone on a project, I enjoy expressing my ideas and making them real through technology.</p>
 			  </div>
 			</div>
 		  </div>
@@ -243,41 +248,43 @@
 				If you would like to work with me , please don't hesitate to get in touch!
 			  </p>
 			  <!-- start contact form -->
-			  <div class="cform" id="contact-form">
+			    <div class="cform" id="contact-form">
 				<div id="sendmessage">Your message has been sent. Thank you!</div>
 				<div id="errormessage"></div>
-				<form action="mail_send.php" method="post" role="form" class="contactForm">
-				  <div class="form-group">
-					<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-					<div class="validation"></div>
-				  </div>
-				  <div class="form-group">
-					<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-					<div class="validation"></div>
-				  </div>
-				  <div class="form-group">
-					<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-					<div class="validation"></div>
-				  </div>
-				  <div class="form-group">
-					<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-					<div class="validation"></div>
-				  </div>
+					<form action="mail_send.php" method="post" role="form" class="contactForm">
+					  <div class="form-group">
+						<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+						<div class="validation"></div>
+					  </div>
+					  <div class="form-group">
+						<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+						<div class="validation"></div>
+					  </div>
+					  <div class="form-group">
+						<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+						<div class="validation"></div>
+					  </div>
+					  <div class="form-group">
+						<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+						<div class="validation"></div>
+					  </div>
 
-				  <div class="text-center"><button type="submit" class="btn btn-lg btn-theme">Send Message</button></div>
-				</form>
-			  </div>
+					  <div class="text-center"><button type="submit" class="btn btn-lg btn-theme">Send Message</button></div>
+					</form>
+			    </div>
 			  <!-- END contact form -->
-			  <!-- Ad Area -->  
-			  <div class="container photo_contain">
-		  	
-		    </div>
-			
-			</div>
-		  </div>
+			</div>  
+				 <div class="row">
+				  	<div class="col-md-6">
+				   <!-- Ad Area --> 
+			    		<div class="container photo_contain"></div>
+					</div> 
+				</div>
+		   </div>
 		</div>
 	</section>
   <!-- end section contact -->
+  
   <footer>
     <div class="verybottom">
       <div class="container">
