@@ -95,7 +95,7 @@ h4 small {
 }
 p{ 
 font-size:20px;
- color: white; 
+ color:blue; 
 }
 
 .fade{
@@ -125,6 +125,10 @@ iframe, embed, object {
 .embed-container embed,
 .video-container object,  
 .video-container embed 					{ position:absolute; top:0; left:0; width:100%; height:100%; }
+
+header{
+	padding: 20px 20px;
+}
 
 
 blockquote {
@@ -338,7 +342,7 @@ section#intro  {
 
 .sy-caption-wrap .sy-caption {
   position: relative;
-  width"300px;
+  width:300px;
   left: -50%;
 font-size: 48px;
   color: #000;
@@ -781,15 +785,17 @@ ul.the-icons {
 
 
 /*====== Service ========*/
-.service_wrap{
-	position:relative;
-	top:-100px;
-	width:800px;
+
+.resume{
+	display: none;
+    position:relative;
+    padding:25px;
+	top:0px;
+	left:17%;
+	width:1000px;
 	height:600px;
-	margin: 0 auto;
-	background:pink;
-	overflow:scroll ;
-	border:solid 1px black;
+	overflow:scroll;
+	border:solid 1px grey;
 	 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
 
@@ -799,8 +805,8 @@ ul.the-icons {
 	top:100px;
 	height:400px;
 	width:500px;
-	background:blue;
-    margin: 0 auto;
+	border: solid 1px grey;
+ 
 }
 .photo1{
 	background-image:url("../img/clients/tgm.png");
@@ -854,7 +860,10 @@ position:relative;
 	
 }
 
+#Portfolio{
+text-align: center;
 
+}
 /* ============== contact ==================== */
 .validation {
 	display:none;
@@ -1302,8 +1311,6 @@ a.socialIcon:hover, .socialHoverClass {
 	 position:relative;
 	 width:100%;
 	 height:550px;
-	 background:blue;
-	 z-index:3;
 	
  }
 
@@ -1325,27 +1332,16 @@ a.socialIcon:hover, .socialHoverClass {
 	z-index:2;
 }
 
-.codepen{
-	top:200px;
-	margin: 0 auto;
-	position:center;
-	width:100%;
-	height:100px;
-	text-align:center;
-}
 .photo_wrapper{
-	
 	height:200px;
 	width:800px;
-	background:red;
-	
 }
 
 .html5 {
 position:relative;
 height:150px;
 width:150px;
-background-image: url("../assets/img/langIcon/html5.png");	
+background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/html5.png");	
 background-size: cover;
 }
 #icon1{
@@ -1358,7 +1354,7 @@ background-size: cover;
 position:relative;
 height:150px;
 width:150px;
-background-image: url("../assets/img/langIcon/css3.png");	
+background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/css3.png");	
 background-size: cover;
 }
 #icon2{
@@ -1371,7 +1367,7 @@ background-size: cover;
 position:relative;
 height:150px;
 width:150px;
-background-image: url("../assets/img/langIcon/git.png");	
+background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/git.png");	
 background-size: cover;
 }
 #icon3{
@@ -1384,7 +1380,7 @@ background-size: cover;
 position:relative;
 height:150px;
 width:250px;
-background-image: url("../assets/img/langIcon/php7.jpg");	
+background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/php7.jpg");	
 background-size: cover;
 }
 #icon4{
@@ -1397,7 +1393,7 @@ background-size: cover;
 	position:relative;
     height:150px;
     width:150px;
-    background-image: url("../assets/img/langIcon/wordpress.jpg");	
+    background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/wordpress.jpg");	
     background-size: cover;
 }
 #icon5{
@@ -1405,5 +1401,4 @@ background-size: cover;
 	color:black;
 	font-family:bold;
 }
-
 
