@@ -204,7 +204,7 @@
     </div>  
 </section>
 
-	<section class="gray">
+	<section class="gray"><input type="button" id="resumebtn" onclick="resumebtn()" value="Resume Click Here" style="position:relative; left: 45%; top: 20px;"/>
 	    <div class=" service_wrap ">
 			<div class="container-fluid">
 				<div class="resume">
@@ -322,7 +322,6 @@
 	<!-- section language -->
      <div class="spacer2">
 		 <section id="Language" >
-		 	<div class="container">
 			<div class="photo_wrapper">
 				<div class="container">
 					<div class="row">
@@ -333,7 +332,6 @@
 						<div class="testblock wordpress col-md-6"><p id="icon5"> WordPress </p><br></div>
 					</div>	
 				</div>
-			</div>	
 			</div>		
 		</section>
 	</div>
@@ -361,7 +359,7 @@
 			<div class="col-md-6">
 			  <h4><i class="icon-envelope"></i><strong>Contact form</strong></h4>
 			  <p>
-				If you would like to work with me , please don't hesitate to get in touch!
+				
 			  </p>
 			  <!-- start contact form -->
 			    <div class="cform" id="contact-form">
@@ -448,6 +446,7 @@
   <script src="assets/js/jquery.nicescroll.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
   <script src="assets/js/AnimOnScroll.js"></script>
+  <script src="assets/js/jsfunction.js"></script>
   <script>
     new AnimOnScroll(document.getElementById('grid'), {
       minDuration: 0.4,
