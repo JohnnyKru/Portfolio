@@ -205,11 +205,11 @@
 <section class="gray">
 <a><input type="button" id="resumebtn" onclick="resumebtn()" value="Resume Click Here" style="position:relative; left: 45%; top: 20px;"/></a>
 	    <div class=" service_wrap ">
-			<div class="container-fluid">
-				<div class="resume">
+			 <div class="resume">
+				<div class="container-fluid">
 					<div class="row">
-					  <div class="col-xs-6 col-sm-8 col-md-10 col-lg-12">
-					  	<h3 style="color:black;">John Keokongsy </h3>
+						  <div class="col-xs-6 col-sm-8 col-md-10 col-lg-12">
+							<h3 style="color:black;">John Keokongsy </h3>
 							<p>Recruiter / Web Developer / Sales </p>
 							<p>Raleigh, NC 27613</p>
 							<p><em>GitHub repositories: https://github.com/JohnnyKru</em></p>
@@ -295,8 +295,8 @@
 							1998 to 2001</p>
 							<p>Millbrook High School - Raleigh, NC
 							1992 to 1996</p>
-						 </div>  
-				    </div>
+						</div>  
+					</div>
 				 </div>   
 			</div>
 		</div>	
