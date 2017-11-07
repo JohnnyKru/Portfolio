@@ -183,7 +183,7 @@ section.dark .heading h3 {
 /* sub heading */
 
 .sub-heading {
-	text-align:center;
+	text-align:left;
 	margin:20px 0 20px 0;
 	font-size: 20px;
 	color:white;
@@ -781,9 +781,9 @@ ul.the-icons {
 
 /*====== Service ========*/
 #resumebtn{
-	position:relative;
-	top:700px;
-	left:0px;
+	position:center;
+	top:0px;
+	left:40%;
 	background:black;
 	color:white;
 	font-size:18px;
@@ -809,7 +809,7 @@ ul.the-icons {
 	position:relative;
 	top:40px;
 	height:400px;
-	width:500px;
+	width:auto;
 	border: solid 1px grey;
  
 }

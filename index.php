@@ -70,7 +70,7 @@
 		<div class="container">
 			<div class="heading"><h2><span>About me :)</span></h2></div>
 				<div class="row">
-					<div class= " col-xs-6 col-sm-4 col-md-4 col-lg-2">
+					<div class= " col-xs-4 col-sm-4 col-md-4 col-lg-2">
 					   <img src="https://calm-peak-10528.herokuapp.com/assets/img/johnnyprofile.png" alt=""  class="img-responsive" />
 						<div class="roles">
 						  <h5><strong>Johnny Keokongsy</strong></h5>
@@ -153,7 +153,7 @@
           
     <div class="Carousel">
     	<h1 style="color:black; text-align: center;">Clients</h1>
-	    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel" style="height:300px;">
+	    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel" style="height:300px; border: dotted 1px black; padding:20px 20px;">
 	    	<!-- Carousel indicators -->
 	        <ol class="carousel-indicators">
 	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -171,10 +171,11 @@
 	                </div>
 	            </div>
 	            <div class="item">
-	                <img src="assets/img/clients/eft.png" style="width:250px; height:150px;" alt="Second Slide">
+	                <img src="assets/img/clients/eft.png" alt="Second Slide">
 	                <div class="carousel-caption">
-	                  <h3>Effective Fitness Training</h3>
-	                  <p>One of the Top outsourcing Personal Training group.  Build webpage using WordPress to connect all 60 locations nationwide. Used WordPress for blogging and updating of any specials on a page easily and conveniently with WordPress plugins document editor. </p>
+	                  <h3  style="position:relative; top:0px ;">Effective Fitness Training</h3>
+	                  <p>One of the Top outsourcing Personal Training group. </p> <p> Build webpage using WordPress to connect all 60 locations nationwide.</p> 
+					  <p>Used WordPress for blogging and updating of any specials on a page easily and conveniently with WordPress plugins document editor. </p>
 	                </div>
 	            </div>
 	            <div class="item">
@@ -203,7 +204,6 @@
     </div>  
 </section>
 <section class="gray">
-<a><input type="button" id="resumebtn" onclick="resumebtn()" value="Resume Click Here" style="position:relative; left: 45%; top: 20px;"/></a>
 	    <div class=" service_wrap ">
 			 <div class="resume">
 				<div class="container-fluid">
@@ -306,12 +306,11 @@
 	    <div class="container">
 			<div class="row">
 				<div class="col-md-12">
-				  <h1 class="brandarea" style="text-align:center; color:black;">Portfolio:</h1>
-				  <br>
-				    <h1 style="color:black; text-align:center;">Portfolio samples on Heroku & wwww.CodePen. <br> For JavaScript projects please visit CodePen.io : </h1><br>
-				  <a href="https://whispering-inlet-81728.herokuapp.com/"><b> www.KruelMilitiaMMA.com <b></a><br>
-				
-                  <a href="https://codepen.io/KRU/" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><b> www.CodePen.io </b> </a>
+				<a><input type="button" id="resumebtn" onclick="resumebtn()" value="  My Resume  "/></a><br><br>
+				    <h1 style="color:black; text-align:center;">My Portfolio samples :</h1>
+				  <a href="https://whispering-inlet-81728.herokuapp.com/"><h3 style="color:#453ff3"> www.KruelMilitiaMMA.com </h3></a><br>
+				    <br><h1 style="color:black; text-align:center;"> For JavaScript projects please visit CodePen.io : </h1><br>
+                  <a href="https://codepen.io/KRU/" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><h3 style="color:#453ff3"> www.CodePen.io </h3> </a>
 				</div>
 			</div>
 		</div>
