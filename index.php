@@ -39,7 +39,6 @@
 						<li><a href="#about">Developer</a></li>
 						<li><a href="#works">Service</a></li>
 						<li><a href="#Portfolio">Portfolio</a></li>
-						<li><a href="#Language">Language</a></li>
 						<li><a href="#contact">Contact</a></li>
 					  </ul>
 					</nav>
@@ -203,8 +202,8 @@
 	    </div>
     </div>  
 </section>
-
-	<section class="gray"><input type="button" id="resumebtn" onclick="resumebtn()" value="Resume Click Here" style="position:relative; left: 45%; top: 20px;"/>
+<section class="gray">
+<a><input type="button" id="resumebtn" onclick="resumebtn()" value="Resume Click Here" style="position:relative; left: 45%; top: 20px;"/></a>
 	    <div class=" service_wrap ">
 			<div class="container-fluid">
 				<div class="resume">
@@ -302,7 +301,7 @@
 			</div>
 		</div>	
 	</section><! --/section -->
-		
+			
 	<section id= "Portfolio" class="gray"> 
 	    <div class="container">
 			<div class="row">
@@ -319,24 +318,6 @@
     </section>
 	<!-- section works -->	 
 	
-	<!-- section language -->
-     <div class="spacer2">
-		 <section id="Language" >
-			<div class="photo_wrapper">
-				<div class="container">
-					<div class="row">
-						<div class="testblock html5 col-md-6"><p id="icon1">HTML5</p><br></div>
-						<div class="testblock css3 col-md-6"><p id="icon2">css3</p><br></div>
-						<div class="testblock github col-md-6"><p id="icon3">github</p><br></div>
-						<div class="testblock php7  col-md-6" ><p id="icon4"> php / Mysql </p><br></div>
-						<div class="testblock wordpress col-md-6"><p id="icon5"> WordPress </p><br></div>
-					</div>	
-				</div>
-			</div>		
-		</section>
-	</div>
-	<!--Client section --> 
-
   <!-- section contact -->
   <section id="contact" class="section">
 		<div class="container">

@@ -664,12 +664,7 @@ ul.the-icons {
     line-height: 60px;
 }
 
-
-
-
-
 /* boxed */
-
 
 .boxed h3{
 	margin-bottom:0;
@@ -785,7 +780,17 @@ ul.the-icons {
 
 
 /*====== Service ========*/
-
+#resumebtn{
+	position:relative;
+	top:700px;
+	left:0px;
+	background:black;
+	color:white;
+	font-size:18px;
+	border-radius: 15px 15px ;
+	z-index:5;
+	
+}
 .resume{
 	display: none;
     position:relative;
@@ -795,14 +800,14 @@ ul.the-icons {
 	width:1000px;
 	height:600px;
 	overflow:scroll;
-	border:solid 1px grey;
+	border:dotted 1px black;
+	background: linear-gradient(45deg, #e0d5e0, white);
 	 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
 
-
 .photo_contain{
 	position:relative;
-	top:100px;
+	top:40px;
 	height:400px;
 	width:500px;
 	border: solid 1px grey;
@@ -1307,12 +1312,7 @@ a.socialIcon:hover, .socialHoverClass {
     background-attachment: fixed;	
 	background-size: cover;
  }
-  .spacer2{
-	 position:relative;
-	 width:100%;
-	 height:550px;
-	
- }
+
 
 /* Animation */
 
@@ -1333,8 +1333,9 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .photo_wrapper{
-	height:200px;
-	width:800px;
+	height:500px;
+	width:100%;
+	border:solid 1px red;
 }
 
 .html5 {
