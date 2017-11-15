@@ -823,7 +823,7 @@ ul.the-icons {
 	border:solid 1px black;
 }
 .photo2{
-	background-image:url("../img/clients/eft.png");
+	background-image:url("../img/clients/eftfitness.jpeg");
 	width:340px;
 	height:250px;
 	background-repeat: no-repeat;
@@ -1335,71 +1335,40 @@ a.socialIcon:hover, .socialHoverClass {
 .photo_wrapper{
 	height:500px;
 	width:100%;
-	border:solid 1px red;
 }
 
 .html5 {
-position:relative;
 height:150px;
 width:150px;
 background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/html5.png");	
-background-size: cover;
-}
-#icon1{
-	position:relative;
-	color:black;
-	font-family:bold;
 }
 
+
 .css3{
-position:relative;
 height:150px;
 width:150px;
 background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/css3.png");	
-background-size: cover;
-}
-#icon2{
-	position:relative;
-	color:black;
-	font-family:bold;
 }
 
 .github {
-position:relative;
 height:150px;
 width:150px;
 background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/git.png");	
-background-size: cover;
-}
-#icon3{
-	position:relative;
-    color:black;
-	font-family:bold;
 }
 
+
 .php7 {
-position:relative;
 height:150px;
 width:250px;
 background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/php7.jpg");	
-background-size: cover;
-}
-#icon4{
-	position:relative;
-	color:black;
-	font-family:bold;
 }
 
+
 .wordpress{
-	position:relative;
     height:150px;
     width:150px;
     background-image: url("https://calm-peak-10528.herokuapp.com/assets/img/langIcon/wordpress.jpg");	
-    background-size: cover;
+   
 }
-#icon5{
-	position:relative;
-	color:black;
-	font-family:bold;
-}
+
 

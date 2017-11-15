@@ -28,7 +28,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				  </button>
-				  <a class="navbar-brand" href="clone.php">Johnny Kru Keokongsy</a>
+				  <a class="navbar-brand" href="index.php">Johnny Kru Keokongsy</a>
 				</div>
 
 				<div class="navigation">
@@ -70,7 +70,7 @@
 		<div class="container">
 			<div class="heading"><h2><span>About me :)</span></h2></div>
 				<div class="row">
-					<div class= " col-xs-4 col-sm-4 col-md-4 col-lg-2">
+					<div class= " col-xs-4 col-sm-4 col-md-2 col-lg-2">
 					   <img src="https://calm-peak-10528.herokuapp.com/assets/img/johnnyprofile.png" alt=""  class="img-responsive" />
 						<div class="roles">
 						  <h5><strong>Johnny Keokongsy</strong></h5>
@@ -81,16 +81,17 @@
 						  </ul>
 						</div>
 					</div>
-					<div class=" col-lg-6 col-md-6 col-xs-12">
-						<div class="sub-heading">
-							<p>-  Freelance WebDesigner & Developer based in Raleigh,NC. </p>
-							<p>- Experienced in HTML5, CSS3, JQuery, JavaScript, PHP, and Mysql.</p><br>
-							<p>- Built and cloned repository using source control software like Git.</p>						 
-							<p>- Maintained and build client websites with WordPress.</p>
-							<p>- Integrated WordPress based websites with other websites.</p> 
-						</div>	
+				
+               				
+					<div class="sub-heading col-xs-12 col-sm-12 col-md-8 col-lg-8 col-lg-offset-2">
+					<p>Since 2011, I’ve been providing exceptional web development services to clients within the Fitness & Health field. I also helped clients tackle technical issues that stands in the way of their ideas and materialization of their professional sites.
+					</p>
+						<li>Freelance WebDesigner & Developer based in Raleigh,NC. </li>
+						<li> Experienced in HTML5, CSS3, JQuery, JavaScript, PHP, and Mysql.</li>				 
+						<li> Maintained and pushed websites using Github and Heroku.</li>
+						<li>Always learning latest trends in web development and mobile apps.</li>	
 					</div>	
-				</div> 
+				</div>
 		</div>
 	</section>
   <!-- end section about -->
@@ -107,7 +108,7 @@
 						<p>Customer Driven / Web Designer / Back End Developer / 3 plus years working start ups.</p>
 					    </div>
 		            <div class="row">
-					    <div class="col-sm-12 col-md-6 col-lg-6">
+					    <div class=" col-xs-12 col-sm-4 col-md-6 col-lg-6">
 							<div class="thumbnail"> 
 									<img src=" https://calm-peak-10528.herokuapp.com/assets/img/service/service_01.png" alt="analytics-icon">
 									<div class="caption">
@@ -117,7 +118,7 @@
 							</div><! --/thumbnail -->
 						</div><! --/col-sm-6-->
 				 
-							<div class="col-sm-12 col-md-6 col-lg-6">
+							<div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
 								<div class="thumbnail"> 
 									<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_02.png" alt="analytics-icon">
 									<div class="caption">
@@ -127,7 +128,7 @@
 								</div><! --/thumbnail -->
 							</div><! --/col-sm-6-->
 						<div class="clearfix "></div>
-						<div class="col-sm-12 col-md-6 col-lg-6">
+						<div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
 							<div class="thumbnail"> 
 								<img src="https://calm-peak-10528.herokuapp.com/assets/img/service/service_03.png" alt="analytics-icon">
 								<div class="caption">
@@ -137,7 +138,7 @@
 							</div><! --/thumbnail -->
 						</div><! --/col-sm-6-->
 				
-						<div class="col-sm-12 col-md-6 col-lg-6">
+						<div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
 							<div class="thumbnail"> 
 								<img src="http://localhost/Portfolio/assets/img/service/service_04.png" alt="analytics-icon">
 								<div class="caption">
@@ -150,60 +151,64 @@
 				</div>
 		    </div>
 		</div><br><br> 
-          
-    <div class="Carousel">
-    	<h1 style="color:black; text-align: center;">Clients</h1>
-	    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel" style="height:300px; border: dotted 1px black; padding:20px 20px;">
-	    	<!-- Carousel indicators -->
-	        <ol class="carousel-indicators">
-	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	            <li data-target="#myCarousel" data-slide-to="1"></li>
-	            <li data-target="#myCarousel" data-slide-to="2"></li>
-	            <li data-target="#myCarousel" data-slide-to="3"></li>
-	        </ol>   
-	        <!-- Wrapper for carousel items -->
-	        <div class="carousel-inner">
-	            <div class="active item">
-	                <img src="assets/img/clients/tgm.png" alt="First Slide">
-	         		<div class="carousel-caption">
-	                  <h3>Triumph Group Management</h3>
-	                  <p>Office management for partnering companies, TGM was an outsourced HR company that helped with recruiting the best talents in a niche market.  My main focus was working with hiring managers to update job sites. I was in charge of linking all open positions to funnel into TGMs main career website. </p>
-	                </div>
-	            </div>
-	            <div class="item">
-	                <img src="assets/img/clients/eft.png" alt="Second Slide">
-	                <div class="carousel-caption">
-	                  <h3  style="position:relative; top:0px ;">Effective Fitness Training</h3>
-	                  <p>One of the Top outsourcing Personal Training group. </p> <p> Build webpage using WordPress to connect all 60 locations nationwide.</p> 
-					  <p>Used WordPress for blogging and updating of any specials on a page easily and conveniently with WordPress plugins document editor. </p>
-	                </div>
-	            </div>
-	            <div class="item">
-	                <img src="assets/img/clients/Rapid.jpg" style="width:250px; height:250px;" alt="Third Slide">
-	                <div class="carousel-caption">
-	                  <h3>Rapid Fitness Gym</h3>
-	                  <p> I was in charge of making the Martial arts departments website. Using HTML5 and CSS3 I took advantage of video capabilities to educate visitors of what this gym had to offer.</p>
-	                </div>
-	            </div>
-	            <div class="item">
-	                <img src="assets/img/clients/Teamlogo.jpg" style="width:350px; height:250px;" alt="Third Slide">
-	                <div class="carousel-caption">
-	                  <h3>Kruel Militia MMA</h3>
-	                  <p>Built site to track memberships as well to sell products with e-commerce capabilities. Used HTML5, CSS3, Javascript, PHP and Mysql to scale.</p>
-	                </div>
-	            </div>
+        <div class="container">
+            <div class="row">		
+				<div class="Carousel col-sm-12 col-md-8 col-lg-12">
+					<h1 style="color:black; text-align: center;">Clients</h1>
+					<div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel" style="height:300px; border: dotted 1px black; padding:20px 20px;">
+						<!-- Carousel indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+							<li data-target="#myCarousel" data-slide-to="3"></li>
+						</ol>   
+						<!-- Wrapper for carousel items -->
+						<div class="carousel-inner">
+							<div class="active item">
+								<img src="assets/img/clients/tgm.png" alt="First Slide">
+								<div class="carousel-caption">
+								  <h3>Triumph Group Management</h3>
+								  <p>Office management for partnering companies, TGM was an outsourced HR company that helped with recruiting the best talents in a niche market.  My main focus was working with hiring managers to update job sites. I was in charge of linking all open positions to funnel into TGMs main career website. </p>
+								</div>
+							</div>
+							<div class="item">
+								<img src="assets/img/clients/eftfitness.jpeg" alt="Second Slide"><br>
+								<div class="carousel-caption"><br>
+								  <h3>Effective Fitness Training</h3>
+								  <p>One of the Top outsourcing Personal Training group.Build webpage using WordPress to connect all 60 locations nationwide.
+								  Used WordPress for blogging and updating of any specials on a page easily and conveniently with WordPress plugins document editor. </p>
+								</div>
+							</div>
+							<div class="item">
+								<img src="assets/img/clients/Rapid.jpg" style="width:250px; height:250px;" alt="Third Slide">
+								<div class="carousel-caption">
+								  <h3>Rapid Fitness Gym</h3>
+								  <p> I was in charge of making the Martial arts departments website. Using HTML5 and CSS3 I took advantage of video capabilities to educate visitors of what this gym had to offer.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img src="assets/img/clients/Teamlogo.jpg" style="width:350px; height:250px;" alt="Third Slide">
+								<div class="carousel-caption">
+								  <h3>Kruel Militia MMA</h3>
+								  <p>Built site to track memberships as well to sell products with e-commerce capabilities. Used HTML5, CSS3, Javascript, PHP and Mysql to scale.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Carousel controls -->
+						<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="carousel-control right" href="#myCarousel" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div>
+				</div>  
 	        </div>
-	        <!-- Carousel controls -->
-	        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-	            <span class="glyphicon glyphicon-chevron-left"></span>
-	        </a>
-	        <a class="carousel-control right" href="#myCarousel" data-slide="next">
-	            <span class="glyphicon glyphicon-chevron-right"></span>
-	        </a>
 	    </div>
-    </div>  
-</section>
-<section class="gray">
+    </section>
+	
+    <section class="gray">
 	    <div class=" service_wrap ">
 			 <div class="resume">
 				<div class="container-fluid">
@@ -302,6 +307,10 @@
 		</div>	
 	</section><! --/section -->
 			
+		
+			
+			
+			
 	<section id= "Portfolio" class="gray"> 
 	    <div class="container">
 			<div class="row">
@@ -328,7 +337,7 @@
 			  <div class="sub-heading">
 				<p style="color:white;">
 				  My passion is to solve problems. </p> 
-				  <p style="color:white;">Working on a team of brilliant individuals or working alone on a project, I enjoy expressing my ideas and making them real through technology.</p>
+				  <p style="color:white;">Working with a team to express ideas and making them real through technology.</p>
 			  </div>
 			</div>
 		  </div>
