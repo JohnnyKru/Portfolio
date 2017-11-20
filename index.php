@@ -316,10 +316,9 @@
 			<div class="row">
 				<div class="col-md-12">
 				<a><input type="button" id="resumebtn" onclick="resumebtn()" value="  My Resume  "/></a><br><br>
-				    <h1 style="color:black; text-align:center;">My Portfolio samples :</h1>
+				    <h1 style="color:black; text-align:center;">Portfolio Demo Site :</h1>
 				  <a href="https://whispering-inlet-81728.herokuapp.com/"><h3 style="color:#453ff3"> www.KruelMilitiaMMA.com </h3></a><br>
-				    <br><h1 style="color:black; text-align:center;"> For JavaScript projects please visit CodePen.io : </h1><br>
-                  <a href="https://codepen.io/KRU/" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><h3 style="color:#453ff3"> www.CodePen.io </h3> </a>
+				   <a href="https://afternoon-wave-99059.herokuapp.com/"><h3 style="color:#453ff3"> www.RealLifeFriends.com </h3></a><br>
 				</div>
 			</div>
 		</div>
